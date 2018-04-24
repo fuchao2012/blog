@@ -1,3 +1,13 @@
 title: 庶民样本
 
 theme: ./themes/luna
+
+theme_config:
+  header_title: e.z.
+  nav:
+    - title: about
+      link: /about
+    - title: girls
+      link: /girls
+    - title: donate
+      link: /donate

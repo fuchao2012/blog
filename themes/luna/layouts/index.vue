@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <div class="main">
       <div class="post-list">
         <div class="post-item" v-for="post in source.posts">
@@ -15,18 +16,31 @@
 </template>
 
 <script>
+import { title } from '@site-meta'
+import Header from '@theme/components/Header'
+
 export default {
-  props: ['source']
+  props: ['source'],
+
+  head: {
+    title
+  },
+
+  components: {
+    Header
+  }
 }
 </script>
 
 <style lang="stylus" src="@theme/styles/main.styl"></style>
 <style scoped lang="stylus">
-.main
-  padding: 0 60px
-  
 .post-title
   font-weight: 300
+  font-size: 2rem
+  margin: 0 0 15px 0
   a
     color: #b58900
+    text-decoration: none
+    &:hover
+      color: #ff69b4
 </style>
