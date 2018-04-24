@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style src="@theme/styles/main.styl"></style>
+<style lang="stylus" src="@theme/styles/main.styl"></style>
 <style scoped lang="stylus">
 .main
   padding: 0 60px

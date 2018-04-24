@@ -4,7 +4,8 @@
       <h1>{{ source.attributes.title }}</h1>
     </div>
     <div class="page-body">
-      <component :is="markdown" />
+      <component :is="markdown" v-if="source.attributes.compile" />
+      <div class="markdown-body" v-html="source.body" v-else></div>
     </div>
   </div>
 </template>
@@ -15,6 +16,7 @@ export default {
 
   computed: {
     markdown() {
+      if (!this.source.attributes.compile) return
       return {
         name: 'markdown-body',
         data: () => ({...this.source.attributes.data}),

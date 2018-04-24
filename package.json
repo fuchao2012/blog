@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "peco build",
+    "surge": "surge -d egoist-new.surge.sh -p .peco/website "
+  },
   "devDependencies": {
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
