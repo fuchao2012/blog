@@ -9,6 +9,9 @@
         </h2>
       </div>
       <div class="page-body">
+        <div class="alert alert-warning" v-if="page.attributes.warning">
+          {{ page.attributes.warning }}
+        </div>
         <component :is="markdown" v-if="page.attributes.compile" />
         <div class="markdown-body" v-html="page.body" v-else></div>
       </div>
@@ -17,6 +20,7 @@
 </template>
 
 <script>
+import zoom from 'medium-zoom'
 import Header from '@theme/components/Header'
 
 export default {
@@ -26,6 +30,10 @@ export default {
     return {
       title: this.page.attributes.title 
     }
+  },
+
+  mounted() {
+    zoom('.page-body img')
   },
 
   computed: {
@@ -85,6 +93,28 @@ export default {
     padding: 0 15px
     color: #777
     border-left: 4px solid #eee8d5
+    
+  hr
+    box-sizing content-box
+    height 0
+    height 0
+    margin 15px 0
+    overflow hidden
+    background transparent
+    border 0
+    border-bottom 1px solid #ddd
+    height 4px
+    padding 0
+    margin 16px 0
+    background-color rgba(0,0,0,.04)
+    border 0 none
+    &:before
+      display table
+      content ""
+    &:after
+      display table
+      clear both
+      content ""
 </style>
 
 <style scoped lang="stylus">
@@ -109,6 +139,18 @@ export default {
   font-size: 18px
   line-height: 1.8
   margin: 30px 0
+  
+.alert
+  padding: 10px
+  border-radius: 4px
+  margin-top: 20px
+  border: 1px solid
+
+.alert-warning
+  border-color: #ef5753
+  color: #cc1f1a
+  background-color: #fcebea
+  margin-bottom: 30px
 
 @media screen and (max-width: 768px)
   .page-title
@@ -117,4 +159,82 @@ export default {
     font-size: 1rem
   .page-body
     font-size: 15px
+</style>
+
+<style lang="stylus">
+code
+  font-size: 1rem
+  tab-size: 4
+  color: #bd10e0
+  font-family: "fira code", Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace
+  &:before, &:after
+    content: "`"
+    
+pre
+  border: 1px solid #eee8d5
+  margin-top: 30px
+  margin-bottom: 30px
+  overflow: auto
+  white-space: pre-wrap
+  word-break: break-word
+  font-weight: 400
+  padding: 20px
+  code
+    padding: 0
+    margin: 0
+    background-color: transparent
+    border: 0
+    color: inherit
+    &:before, &:after
+      content: ''
+      display: none
+  .highlighted-line
+    background-color: #ffe9ad
+    display: block
+    margin: 0 -20px
+    padding: 0 20px
+    
+.footnote-ref
+  margin 0 5px
+  a
+    text-decoration none
+    &:focus
+      outline none
+      color #DD4A68
+      font-weight bold
+    &:hover
+      text-decoration none
+
+.footnotes
+  .footnote-item
+    p
+      margin 0
+      margin-top 0 !important
+    &.is-focus
+      border-left: 2px solid
+      border-color: #E91E63
+      outline: none
+      .footnote-backref
+        color: @border-color
+
+  .footnote-backref
+    text-decoration none
+    &:hover
+      text-decoration none
+
+hr.footnotes-sep
+  margin 40px 0
+  height 1px
+  position relative
+  overflow: visible
+  &:after
+    content: '脚注'
+    position absolute
+    left 50%
+    top 50%
+    transform translateX(-50%) translateY(-50%)
+    background #fdf6e3
+    padding: 0 10px
+    font-size 1rem
+    color rgba(0, 0, 0, 0.26)
 </style>

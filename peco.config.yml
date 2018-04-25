@@ -11,3 +11,8 @@ theme_config:
       link: /girls
     - title: donate
       link: /donate
+
+markdown:
+  slugify: limax
+  plugins:
+    - name: markdown-it-footnote
