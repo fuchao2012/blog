@@ -29,12 +29,14 @@
         </router-link>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import { title } from '@site-meta'
 import Header from '@theme/components/Header'
+import Footer from '@theme/components/Footer'
 
 export default {
   props: ['page'],
@@ -44,7 +46,8 @@ export default {
   },
 
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>

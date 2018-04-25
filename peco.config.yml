@@ -11,8 +11,12 @@ theme_config:
       link: /girls
     - title: donate
       link: /donate
+  website: https://github.com/egoist
+  repo: egoist/blog
 
 markdown:
   slugify: limax
   plugins:
     - name: markdown-it-footnote
+
+ga_id: UA-54857209-6

@@ -16,12 +16,14 @@
         <div class="markdown-body" v-html="page.body" v-else></div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import zoom from 'medium-zoom'
 import Header from '@theme/components/Header'
+import Footer from '@theme/components/Footer'
 
 export default {
   props: ['page'],
@@ -48,7 +50,8 @@ export default {
   },
 
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
