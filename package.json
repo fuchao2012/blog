@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "peco build",
-    "surge": "surge -d egoist-new.surge.sh -p .peco/website "
+    "surge": "surge -d https://egoist-new.surge.sh -p .peco/website "
   },
   "devDependencies": {
     "stylus": "^0.54.5",
