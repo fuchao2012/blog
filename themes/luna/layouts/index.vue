@@ -49,7 +49,6 @@ export default {
 }
 </script>
 
-<style lang="stylus" src="@theme/styles/main.styl"></style>
 <style scoped lang="stylus">
 .post-title
   font-weight: 300

@@ -11,6 +11,15 @@ a
 
 .main
   padding: 40px 70px
+  
+// override nprogress
+$spinnerColor = #ff69b4
+
+#nprogress .bar
+  background: $spinnerColor
+  
+#nprogress .peg
+  box-shadow: 0 0 10px $spinnerColor, 0 0 5px $spinnerColor
 
 @media screen and (max-width: 768px)
   .main
