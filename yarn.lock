@@ -3333,7 +3333,7 @@ pbkdf2@^3.0.3:
 
 peco@egojump/peco:
   version "0.0.0"
-  resolved "https://codeload.github.com/egojump/peco/tar.gz/aea0db17f409ed3f37d00842b374b9b5059445e4"
+  resolved "https://codeload.github.com/egojump/peco/tar.gz/883a40cf6cd875b5c3dfdf39ccde85e0fd1fbff5"
   dependencies:
     "@babel/core" "^7.0.0-beta.46"
     "@babel/plugin-syntax-dynamic-import" "^7.0.0-beta.46"
@@ -3362,6 +3362,7 @@ peco@egojump/peco:
     promise-polyfill "^7.1.2"
     resolve-from "^4.0.0"
     time-fix-plugin "^2.0.0"
+    toml "^2.3.3"
     url-loader "^1.0.1"
     use-config "^2.0.4"
     vue "^2.5.16"
@@ -4539,6 +4540,10 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     extend-shallow "^3.0.2"
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
+
+toml@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/toml/-/toml-2.3.3.tgz#8d683d729577cb286231dfc7a8affe58d31728fb"
 
 toposort@^1.0.0:
   version "1.0.6"

@@ -1,0 +1,29 @@
+theme = "./themes/luna"
+googleAnalytics = "UA-54857209-6"
+
+[meta]
+title = "庶民样本"
+
+[themeConfig]
+headerTitle = "e.z."
+website = "https://github.com/egoist"
+repo = "egoist/blog"
+twitter = "_egoistlily"
+
+  [[themeConfig.nav]]
+  title = "about"
+  link = "/about"
+
+  [[themeConfig.nav]]
+  title = "girls"
+  link = "/girls"
+
+  [[themeConfig.nav]]
+  title = "donate"
+  link = "/donate"
+
+[markdown]
+slugify = "limax"
+
+  [[markdown.plugins]]
+  name = "markdown-it-footnote"
