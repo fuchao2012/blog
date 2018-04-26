@@ -58,4 +58,5 @@ export default {
     text-decoration: none
     &:hover
       color: #eee8d5
+      background: transparent
 </style>
