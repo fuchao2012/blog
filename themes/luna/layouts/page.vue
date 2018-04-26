@@ -71,6 +71,31 @@ export default {
 
   mounted() {
     zoom('.page-body img')
+    this.orderWaifu()
+  },
+
+  methods: {
+    // TODO: temp solution
+    orderWaifu() {
+      const $ = document.querySelector.bind(document)
+      const $waifu = $('.waifu')
+      if (!$waifu) return
+      const cvStats = {}
+      Array.prototype.forEach.call($waifu.querySelectorAll('li'), el => {
+        const $cv = el.querySelector('.cv')
+        const cvName = $cv.textContent
+        cvStats[cvName] = cvStats[cvName] || []
+        cvStats[cvName].push(el)
+      })
+      const result = Object.keys(cvStats)
+        .sort((a, b) => cvStats[b].length - cvStats[a].length)
+        .reduce((res, name) => {
+          return [...res, ...cvStats[name]]
+        }, [])
+      $waifu.innerHTML = '<ul></ul>'
+      const $ul = $waifu.querySelector('ul')
+      result.forEach(el => $ul.appendChild(el))
+    }
   },
 
   computed: {
