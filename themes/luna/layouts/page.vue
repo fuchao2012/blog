@@ -24,13 +24,42 @@
 import zoom from 'medium-zoom'
 import Header from '@theme/components/Header'
 import Footer from '@theme/components/Footer'
+import { theme_config } from '@site-meta'
 
 export default {
   props: ['page'],
 
   head() {
+    const title = this.page.attributes.title
+    let summary = this.page.attributes.subtitle || this.page.excerpt
+    if (summary) {
+      // Strip HTML tags
+      summary = summary.replace(/<(?:.|\n)*?>/gm, '')
+    }
     return {
-      title: this.page.attributes.title 
+      title,
+      meta: [
+        {
+          name: 'description',
+          content: summary
+        },
+        {
+          name: 'twitter:card',
+          content: summary
+        },
+        {
+          name: 'twitter:creator',
+          content: `@${theme_config.twitter}`
+        },
+        {
+          name: 'twitter:title',
+          content: title
+        },
+        {
+          name: 'twitter:description',
+          content: summary
+        }
+      ]
     }
   },
 
