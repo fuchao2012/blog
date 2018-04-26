@@ -14,14 +14,14 @@
 </template>
 
 <script>
-import { theme_config } from '@site-meta'
+import { themeConfig } from '@site-meta'
 
 export default {
   data() {
     return {
-      title: theme_config.header_title.toUpperCase(),
-      website: theme_config.website,
-      repo: theme_config.repo
+      title: themeConfig.headerTitle.toUpperCase(),
+      website: themeConfig.website,
+      repo: themeConfig.repo
     }
   }
 }

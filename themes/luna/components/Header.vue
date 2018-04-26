@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <h1 class="site-name">
-      <router-link to="/">{{ header_title }}</router-link>
+      <router-link to="/">{{ headerTitle }}</router-link>
     </h1>
     <ul class="nav" v-if="nav">
       <li v-for="item in nav" class="nav-item">
@@ -12,13 +12,13 @@
 </template>
 
 <script>
-import { theme_config } from '@site-meta'
+import { themeConfig } from '@site-meta'
 
 export default {
   data() {
     return {
-      header_title: theme_config.header_title || 'header title',
-      nav: theme_config.nav
+      headerTitle: themeConfig.headerTitle || 'header title',
+      nav: themeConfig.nav
     }
   }
 }

@@ -2,8 +2,8 @@ title: 庶民样本
 
 theme: ./themes/luna
 
-theme_config:
-  header_title: e.z.
+themeConfig:
+  headerTitle: e.z.
   nav:
     - title: about
       link: /about
@@ -20,4 +20,4 @@ markdown:
   plugins:
     - name: markdown-it-footnote
 
-ga_id: UA-54857209-6
+googleAnalytics: UA-54857209-6
