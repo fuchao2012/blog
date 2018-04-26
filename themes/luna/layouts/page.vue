@@ -15,6 +15,9 @@
         <component :is="markdown" v-if="page.attributes.compile" />
         <div class="markdown-body" v-html="page.body" v-else></div>
       </div>
+      <div class="report-bugs">
+        文章勘误可以直接到 <a target="_blank" href="https://github.com/egoist/blog/blob/master/source/_posts/#{page.slug}.md">源代码地址</a> 修改或者 <a target="_blank" href="https://github.com/egoist/blog/issues/new">提交 ISSUE</a>，感谢阅读！
+      </div>
     </div>
     <Footer />
   </div>
@@ -106,11 +109,6 @@ export default {
     margin-top: 0
     margin-bottom: 16px
 
-  a
-    color: #b58900
-    &:hover
-      background: #eee8d5
-
   ul, ol
     list-style: cjk-ideographic
     padding-left: 0
@@ -172,6 +170,12 @@ export default {
   line-height: 1.8
   margin: 30px 0
   
+.report-bugs
+  padding: 10px
+  color: #657b83
+  margin-top: 30px
+  border: 1px dashed rgba(37,26,26,.11)
+
 .alert
   padding: 10px
   border-radius: 4px
