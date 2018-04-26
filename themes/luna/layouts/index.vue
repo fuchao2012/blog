@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import { title } from '@site-meta'
+import { meta } from '@site-data'
 import Header from '@theme/components/Header'
 import Footer from '@theme/components/Footer'
 
@@ -42,7 +42,7 @@ export default {
   props: ['page'],
 
   head: {
-    title
+    title: meta.title
   },
 
   components: {

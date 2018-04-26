@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { themeConfig } from '@site-meta'
+import { themeConfig } from '@site-data'
 
 export default {
   data() {

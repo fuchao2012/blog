@@ -30,7 +30,7 @@
 import zoom from 'medium-zoom'
 import Header from '@theme/components/Header'
 import Footer from '@theme/components/Footer'
-import { themeConfig } from '@site-meta'
+import { themeConfig } from '@site-data'
 
 export default {
   props: ['page'],
