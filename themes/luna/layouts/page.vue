@@ -145,6 +145,11 @@ export default {
       display table
       clear both
       content ""
+
+@media screen and (max-width: 768px)
+  .markdown-body
+    ul, ol
+      list-style: none
 </style>
 
 <style scoped lang="stylus">
