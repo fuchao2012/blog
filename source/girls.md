@@ -122,6 +122,8 @@ data:
       cv: 佐仓绫音
     - name: 惠惠
       cv: 高桥李依
+    - name: 輝夜月
+      cv: 不详
 ---
 
 ## <span>当前</span>
