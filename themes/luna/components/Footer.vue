@@ -5,23 +5,19 @@
         <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">CC BY-NC-ND 4.0</a>
       </span>
       <span>&copy;</span>
-      <span><a :href="website">{{ title }}</a></span>
+      <span><a :href="$themeConfig.website">{{ title }}</a></span>
       <span class="hide-on-mobile">
-        <a :href="`https://github.com/${repo}`">Read the source code.</a>
+        <a :href="`https://github.com/${$themeConfig.repo}`">Read the source code.</a>
       </span>
     </div>
   </footer>
 </template>
 
 <script>
-import { themeConfig } from '@site-data'
-
 export default {
-  data() {
-    return {
-      title: themeConfig.headerTitle.toUpperCase(),
-      website: themeConfig.website,
-      repo: themeConfig.repo
+  computed: {
+    title() {
+      return this.$themeConfig.headerTitle.toUpperCase()
     }
   }
 }

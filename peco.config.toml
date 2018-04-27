@@ -1,8 +1,7 @@
+title = "庶民样本"
+description = "EGOIST 在这里写作"
 theme = "./themes/luna"
 googleAnalytics = "UA-54857209-6"
-
-[meta]
-title = "庶民样本"
 
 [themeConfig]
 headerTitle = "e.z."

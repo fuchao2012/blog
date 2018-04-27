@@ -1,28 +1,17 @@
 <template>
   <header class="header">
     <h1 class="site-name">
-      <router-link to="/">{{ headerTitle }}</router-link>
+      <router-link to="/">
+        {{ $themeConfig.headerTitle || $siteData.title }}
+      </router-link>
     </h1>
-    <ul class="nav" v-if="nav">
-      <li v-for="item in nav" class="nav-item">
+    <ul class="nav" v-if="$themeConfig.nav">
+      <li v-for="item in $themeConfig.nav" class="nav-item">
         <router-link :to="item.link">{{ item.title }}</router-link>
       </li>
     </ul>
   </header>
 </template>
-
-<script>
-import { themeConfig } from '@site-data'
-
-export default {
-  data() {
-    return {
-      headerTitle: themeConfig.headerTitle || 'header title',
-      nav: themeConfig.nav
-    }
-  }
-}
-</script>
 
 <style scoped lang="stylus">
 .header

@@ -34,15 +34,22 @@
 </template>
 
 <script>
-import { meta } from '@site-data'
 import Header from '@theme/components/Header'
 import Footer from '@theme/components/Footer'
 
 export default {
   props: ['page'],
 
-  head: {
-    title: meta.title
+  head() {
+    return {
+      title: this.$siteData.title,
+      meta: [
+        {
+          name: 'description',
+          content: this.$siteData.description
+        }
+      ]
+    }
   },
 
   components: {

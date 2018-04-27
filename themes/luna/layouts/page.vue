@@ -30,7 +30,6 @@
 import zoom from 'medium-zoom'
 import Header from '@theme/components/Header'
 import Footer from '@theme/components/Footer'
-import { themeConfig } from '@site-data'
 
 export default {
   props: ['page'],
@@ -55,7 +54,7 @@ export default {
         },
         {
           name: 'twitter:creator',
-          content: `@${themeConfig.twitter}`
+          content: `@${this.$themeConfig.twitter}`
         },
         {
           name: 'twitter:title',
