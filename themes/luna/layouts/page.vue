@@ -15,9 +15,6 @@
         <component :is="markdown" v-if="page.attributes.compile" />
         <div class="markdown-body" v-html="page.body" v-else></div>
       </div>
-      <div class="page-date" v-if="page.attributes.layout === 'post'">
-        - 撰写于 {{ date }} 日
-      </div>
       <div class="report-bugs" v-if="page.attributes.layout === 'post'">
         文章勘误可以直接到 <a target="_blank" :href="`https://github.com/egoist/blog/blob/master/source/_posts/${page.slug}.md`">源代码地址</a> 修改或者 <a target="_blank" href="https://github.com/egoist/blog/issues/new">提交 ISSUE</a>，感谢阅读！
       </div>
@@ -105,11 +102,6 @@ export default {
         data: () => ({...this.page.attributes.data}),
         template: `<div class="markdown-body">${this.page.body}</div>`
       }
-    },
-
-    date() {
-      const d = new Date(this.page.attributes.date)
-      return `${d.getFullYear()}/${d.getMonth()}/${d.getDate()}`
     }
   },
 
@@ -206,10 +198,6 @@ export default {
   font-size: 18px
   line-height: 1.8
   margin: 30px 0
-
-.page-date
-  font-style: italic
-  color: #657b83
 
 .report-bugs
   padding: 10px
