@@ -16,6 +16,7 @@ Peco 正在开发中，在正式的文档出来之前我先理一下目前的使
 ```bash
 mkdir new-blog
 cd new-blog
+yarn init -y
 yarn add egojump/peco
 ```
 
