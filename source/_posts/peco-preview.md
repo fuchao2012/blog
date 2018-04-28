@@ -88,8 +88,8 @@ interface IndexPage extends Page {
     hasPrev: boolean
     prevLink: string
     nextLink: string
-    total: Number
-    current: Number
+    total: number
+    current: number
   }
 }
 ```

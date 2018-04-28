@@ -3388,7 +3388,7 @@ pbkdf2@^3.0.3:
 
 peco@egojump/peco:
   version "0.0.0"
-  resolved "https://codeload.github.com/egojump/peco/tar.gz/c24a577c9d6967ea7a305548b270a3ff9f60b761"
+  resolved "https://codeload.github.com/egojump/peco/tar.gz/f3d21cff61a6bd91d5fcde92ba43b7535e67c608"
   dependencies:
     "@babel/core" "^7.0.0-beta.46"
     "@babel/plugin-syntax-dynamic-import" "^7.0.0-beta.46"
