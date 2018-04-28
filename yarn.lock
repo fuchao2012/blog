@@ -517,9 +517,9 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@vue/component-compiler-utils@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@vue/component-compiler-utils/-/component-compiler-utils-1.1.0.tgz#e3ca46ebbe3ebb1f7716da4602b06735fb8c9e97"
+"@vue/component-compiler-utils@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@vue/component-compiler-utils/-/component-compiler-utils-1.2.1.tgz#3d543baa75cfe5dab96e29415b78366450156ef6"
   dependencies:
     consolidate "^0.15.1"
     hash-sum "^1.0.2"
@@ -3273,7 +3273,7 @@ osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-p-limit@^1.0.0, p-limit@^1.1.0:
+p-limit@^1.0.0, p-limit@^1.1.0, p-limit@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-1.2.0.tgz#0e92b6bedcb59f022c13d0f1949dc82d15909f1c"
   dependencies:
@@ -3388,7 +3388,7 @@ pbkdf2@^3.0.3:
 
 peco@egojump/peco:
   version "0.0.0"
-  resolved "https://codeload.github.com/egojump/peco/tar.gz/e568fb7ee86c0fd1f067adbf65a39406ada0b401"
+  resolved "https://codeload.github.com/egojump/peco/tar.gz/c24a577c9d6967ea7a305548b270a3ff9f60b761"
   dependencies:
     "@babel/core" "^7.0.0-beta.46"
     "@babel/plugin-syntax-dynamic-import" "^7.0.0-beta.46"
@@ -3412,16 +3412,17 @@ peco@egojump/peco:
     markdown-it-anchor "^4.0.0"
     markdown-it-highlight-lines "^1.0.0"
     mini-css-extract-plugin "^0.4.0"
+    p-limit "^1.2.0"
     pify "^3.0.0"
     postcss-loader "^2.1.4"
     prismjs "^1.14.0"
     promise-polyfill "^7.1.2"
     resolve-from "^4.0.0"
-    time-fix-plugin "^2.0.0"
+    time-fix-plugin "^2.0.1"
     toml "^2.3.3"
     url-loader "^1.0.1"
     vue "^2.5.16"
-    vue-loader "^15.0.0-rc.2"
+    vue-loader "^15.0.3"
     vue-meta "^1.5.0"
     vue-router "^3.0.1"
     vue-server-renderer "^2.5.16"
@@ -4552,9 +4553,9 @@ through2@^2.0.0:
     readable-stream "^2.1.5"
     xtend "~4.0.1"
 
-time-fix-plugin@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/time-fix-plugin/-/time-fix-plugin-2.0.0.tgz#d112f1e415b6ed269e008a42990ddbf8053fc315"
+time-fix-plugin@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/time-fix-plugin/-/time-fix-plugin-2.0.1.tgz#4943dd28c8fa36a543aec34e3af2a173abc43de1"
 
 timers-browserify@^2.0.4:
   version "2.0.10"
@@ -4824,11 +4825,11 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.0.tgz#97976142405d13d8efae154749e88c4e358cf926"
 
-vue-loader@^15.0.0-rc.2:
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.0.1.tgz#6844fccdf957982fd05e71999fab6b417d27dd3d"
+vue-loader@^15.0.3:
+  version "15.0.4"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.0.4.tgz#309cc1ee6a438cabbbc79f8639890ce6cd9ba14c"
   dependencies:
-    "@vue/component-compiler-utils" "^1.0.0"
+    "@vue/component-compiler-utils" "^1.2.1"
     hash-sum "^1.0.2"
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
