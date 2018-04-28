@@ -3,6 +3,12 @@
     <Header />
     <div class="main">
       <div v-html="page.body"></div>
+      <div class="cat" v-if="page.attributes.type === 'tag'">
+        &lt;{{ page.tag }}/&gt;
+      </div>
+      <div class="cat" v-if="page.attributes.type === 'category'">
+        &lt;{{ page.category }}/&gt;
+      </div>
       <div class="post-list">
         <div class="post-item" v-for="post in page.posts">
           <h2 class="post-title">
@@ -101,7 +107,15 @@ export default {
       &:before
         transform: translateX(0)
 
+.cat
+  font-size: 5rem
+  color: #586e75
+  margin-bottom: 20px
+
 @media screen and (max-width: 768px)
   .post-title
     font-size: 16px
+    
+  .cat
+    font-size: 2rem
 </style>
