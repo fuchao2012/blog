@@ -6,6 +6,8 @@ categories:
   - peco
 ---
 
+> __更新: Peco v0.1 已经发布! https://github.com/egojump/peco__
+
 Peco 正在开发中，在正式的文档出来之前我先理一下目前的使用方法。
 
 
