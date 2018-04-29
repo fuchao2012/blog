@@ -12,7 +12,7 @@
         <div class="alert alert-warning" v-if="page.attributes.warning">
           {{ page.attributes.warning }}
         </div>
-        <component :is="markdown" v-if="page.attributes.compile" />
+        <slot name="body" v-if="page.attributes.compileTemplate"></slot>
         <div class="markdown-body" v-html="page.body" v-else></div>
       </div>
       <div class="report-bugs" v-if="page.attributes.type === 'post'">
@@ -91,17 +91,6 @@ export default {
       $waifu.innerHTML = '<ul></ul>'
       const $ul = $waifu.querySelector('ul')
       result.forEach(el => $ul.appendChild(el))
-    }
-  },
-
-  computed: {
-    markdown() {
-      if (!this.page.attributes.compile) return
-      return {
-        name: 'markdown-body',
-        data: () => ({...this.page.attributes.data}),
-        template: `<div class="markdown-body">${this.page.body}</div>`
-      }
     }
   },
 
