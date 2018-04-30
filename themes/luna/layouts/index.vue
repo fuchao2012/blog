@@ -2,7 +2,8 @@
   <div>
     <Header />
     <div class="main">
-      <div v-html="page.body"></div>
+      <slot name="body" v-if="page.attributes.compileTemplate" />  
+      <div v-else v-html="page.body"></div>
       <div class="cat" v-if="page.attributes.type === 'tag'">
         &lt;{{ page.tag }}/&gt;
       </div>
