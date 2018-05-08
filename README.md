@@ -1,9 +1,7 @@
-# my-peco-blog
+# EGOIST's blog
 
-This is my blog rewritten in Peco.
+This is my blog written in [Peco](https://github.com/egojump/peco).
 
 Peco is a static website generator that aims to be as simple as Hexo but also takes advantage of the modern front-end technology like Webpack, Vue, SSG (server-side generated).
 
-And maybe even React support...
-
-Peco will be realeased as soon as I finish rewriting this blog and a few other themes.
+Peco is feature-complete for generating blog or documentation websites but is still in beta phase, only use it if you're adventurous.
