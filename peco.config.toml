@@ -2,6 +2,10 @@ title = "庶民样本"
 description = "EGOIST 在这里写作"
 theme = "./themes/luna"
 googleAnalytics = "UA-54857209-6"
+url = "https://egoist.moe"
+feed = true
+author = "EGOIST"
+email = "0x142857@gmail.com"
 
 [themeConfig]
 headerTitle = "e.z."

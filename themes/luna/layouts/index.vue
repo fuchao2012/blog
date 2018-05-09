@@ -55,7 +55,10 @@ export default {
           name: 'description',
           content: this.$siteData.description
         }
-      ]
+      ],
+      link: [
+        this.$feedLink
+      ].filter(Boolean)
     }
   },
 
