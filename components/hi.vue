@@ -62,8 +62,7 @@ export default {
 }
 </script>
 
-<style src="v-tippy/dist/tippy.css">
-</style>
+<style src="v-tippy/dist/tippy.css"></style>
 
 <style lang="stylus">
 .tippy-tooltip.honeybee-theme 
