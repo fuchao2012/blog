@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="egoist">
-      <img class="avatar" src="../assets/egoist.png" alt="egoist">
+      <img class="avatar avatar-animate" src="../assets/egoist.png" alt="egoist">
       <div class="egoist-desu">
         EGOIST desu!
       </div>
@@ -73,34 +73,6 @@ export default {
 
 .tippy-tooltip.honeybee-theme .tippy-backdrop
   background-color: #ead4b7
-  
-@keyframes bounce
-  from,
-  20%,
-  53%,
-  80%,
-  to 
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    transform: translate3d(0, 0, 0)
-
-  40%,
-  43%
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    transform: translate3d(0, -30px, 0)
-
-  70%
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06)
-    transform: translate3d(0, -15px, 0)
-
-  90% 
-    transform: translate3d(0, -4px, 0)
-  
-.icon-animate
-  animation-duration: 1s
-  animation-fill-mode: both
-  &:hover
-    animation-name: bounce
-    transform-origin: center bottom
 </style>
 
 <style scoped lang="stylus">
@@ -134,6 +106,12 @@ export default {
   width: @height
   border: 2px solid white
   margin: 1px
+  transform-origin: top center
+  animation-name: swing
+  
+.avatar-animate
+  animation-duration: 1s
+  animation-fill-mode: both
   
 .egoist-desu
   line-height: 1.2
@@ -163,6 +141,51 @@ export default {
     width: 2rem
     height: @width
     
+.icon-animate
+  animation-duration: 1s
+  animation-fill-mode: both
+  &:hover
+    animation-name: bounce
+    transform-origin: center bottom
+    
+@keyframes swing 
+  20% 
+    transform: rotate3d(0, 0, 1, 15deg)
+  
+  40%
+    transform: rotate3d(0, 0, 1, -10deg)
+  
+
+  60%
+    transform: rotate3d(0, 0, 1, 5deg)
+
+  80% 
+    transform: rotate3d(0, 0, 1, -5deg)
+
+  to
+    transform: rotate3d(0, 0, 1, 0deg)
+  
+@keyframes bounce
+  from,
+  20%,
+  53%,
+  80%,
+  to 
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0)
+
+  40%,
+  43%
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0)
+
+  70%
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06)
+    transform: translate3d(0, -15px, 0)
+
+  90% 
+    transform: translate3d(0, -4px, 0)
+    
 @media screen and (max-width: 768px)
   .egoist,.desc
     font-size: 1rem
@@ -177,4 +200,5 @@ export default {
     svg
       width: 1rem
       height: @width
+
 </style>
