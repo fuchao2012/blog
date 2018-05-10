@@ -830,6 +830,10 @@ babel-code-frame@^6.26.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
+babel-helper-vue-jsx-merge-props@^2.0.2:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.3.tgz#22aebd3b33902328e513293a8e4992b384f9f1b6"
+
 babel-loader@^8.0.0-beta.2:
   version "8.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.0-beta.2.tgz#4d5b67c964dc8c9cba866fd13d6b90df3acf8723"
@@ -3214,6 +3218,10 @@ nan@~2.3.0:
   version "2.3.5"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.3.5.tgz#822a0dc266290ce4cd3a12282ca3e7e364668a08"
 
+nano-assign@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nano-assign/-/nano-assign-1.0.0.tgz#499f4f8a1ae801f2405863e6946ca8568d666e4e"
+
 nanomatch@^1.2.9:
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.9.tgz#879f7150cb2dab7a471259066c104eee6e0fa7c2"
@@ -3583,9 +3591,9 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-peco@egojump/peco:
-  version "0.1.3"
-  resolved "https://codeload.github.com/egojump/peco/tar.gz/6607c9206dc699c0634225ee90883679347b9579"
+peco@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/peco/-/peco-0.1.5.tgz#97ad8d60e6dcdf0c08b00666ecd46fb3eabe7865"
   dependencies:
     "@babel/core" "^7.0.0-beta.46"
     "@babel/plugin-syntax-dynamic-import" "^7.0.0-beta.46"
@@ -3662,6 +3670,10 @@ pkg-dir@^2.0.0:
   resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-2.0.0.tgz#f6d5d1109e19d63edf428e0bd57e12777615334b"
   dependencies:
     find-up "^2.1.0"
+
+popper.js@^1.14.3:
+  version "1.14.3"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.3.tgz#1438f98d046acf7b4d78cd502bf418ac64d4f095"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -4789,6 +4801,12 @@ tiny-emitter@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.0.2.tgz#82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c"
 
+tippy.js@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-2.5.2.tgz#01de112a80219032a3cf06ac2d29a4d69480705d"
+  dependencies:
+    popper.js "^1.14.3"
+
 to-arraybuffer@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
@@ -5034,6 +5052,13 @@ uuid@^3.1.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.2.1.tgz#12c528bb9d58d0b9265d9a2f6f0fe8be17ff1f14"
 
+v-tippy@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/v-tippy/-/v-tippy-2.0.0.tgz#2cff07b61a297b49edbbf4d76ef3ebe9b3e5ea79"
+  dependencies:
+    nano-assign "^1.0.0"
+    tippy.js "^2.5.2"
+
 validate-npm-package-license@^3.0.1:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.3.tgz#81643bcbef1bdfecd4623793dc4648948ba98338"
@@ -5054,6 +5079,12 @@ vm-browserify@0.0.4:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
+
+vue-feather-icons@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/vue-feather-icons/-/vue-feather-icons-4.7.0.tgz#a0f88b0f3a294fc49284fb73c584a0b8b1e678f8"
+  dependencies:
+    babel-helper-vue-jsx-merge-props "^2.0.2"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.0"
