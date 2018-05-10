@@ -19,7 +19,7 @@
       <a class="icon-animate icon"  title="Support my open-source work" v-tippy href="https://patreon.com/egoist">
         <DollarSignIcon />
       </a>
-      <a class="icon-animate icon"  title="Ask my anything" v-tippy href="https://www.patreon.com/egoist/community">
+      <a class="icon-animate icon"  title="Ask me anything" v-tippy href="https://www.patreon.com/egoist/community">
         <MessageSquareIcon />
       </a>
       <a href="mailto:0x142857@gmail.com" class="icon-animate icon" title="Contact me via 0x142857@gmail.com" v-tippy>
