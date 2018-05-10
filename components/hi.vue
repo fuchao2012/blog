@@ -117,7 +117,6 @@ export default {
   border-radius: 66px
   padding-right: 30px
   color: white
-  box-shadow: inset 0px 0px 7px #888887
   margin-top: 100px
   
 .desc
