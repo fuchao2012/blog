@@ -11,10 +11,18 @@
 <script>
 const DEMO_RE = /^\/([\w\-]+)$/
 export default {
+  data() {
+    return {
+      isDemo: false
+    }
+  },
+
+  mounted() {
+    // We set `isDemo` at runtime since `path` is always `404.html` during SSR
+    this.isDemo = DEMO_RE.test(this.$route.path)
+  },
+
   computed: {
-    isDemo() {
-      return DEMO_RE.test(this.$route.path)
-    },
     demoURL() {
       return this.isDemo && `https://${DEMO_RE.exec(this.$route.path)[1]}.egoist.rocks`
     }
