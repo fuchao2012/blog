@@ -2,7 +2,7 @@ import Vue from 'vue'
 import 'nprogress/nprogress.css'
 import '@theme/styles/main.styl'
 
-export default ({ router }) => {
+export default ({ router, rootOptions }) => {
   if (process.browser) {
     const nprogress = require('nprogress')
 
@@ -21,5 +21,11 @@ export default ({ router }) => {
       loaded[to.path] = true
       nprogress.done()
     })
+  }
+
+  rootOptions.head = {
+    htmlAttrs: {
+      lang: 'zh-CN'
+    }
   }
 }
