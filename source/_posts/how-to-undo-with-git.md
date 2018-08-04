@@ -20,7 +20,7 @@ categories:
 
 **操作**: `git revert <SHA>`
 
-**效果**: git 会新建一个新的 commit 来执行提供的 <SHA> 对应 commit 的相反的更改，任何在该旧 commit 中删除的内容将会在新 commit 中添加进去，反之亦然。
+**效果**: git 会新建一个新的 commit 来执行提供的 `<SHA>` 对应 commit 的相反的更改，任何在该旧 commit 中删除的内容将会在新 commit 中添加进去，反之亦然。
 
 这是 git 里最安全的撤消操作的办法，因为这不会影响你的提交历史。于是现在你可以提交新的 commit 去撤销之前错误的操作了。
 

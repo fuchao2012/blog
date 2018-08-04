@@ -3792,9 +3792,9 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-peco@^0.1.15:
-  version "0.1.15"
-  resolved "https://registry.npmjs.org/peco/-/peco-0.1.15.tgz#a0d3461a40b4dc535234beaf053d4f91e8c29866"
+peco@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/peco/-/peco-0.2.1.tgz#7b468d44ef7ee7f64ddefc86fb1e1aa190d71ea8"
   dependencies:
     "@babel/core" "^7.0.0-beta.46"
     "@babel/plugin-syntax-dynamic-import" "^7.0.0-beta.46"
