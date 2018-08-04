@@ -27,6 +27,8 @@ twitter = "_egoistlily"
 
 [markdown]
 slugify = "limax"
+highlightedLineBackground = "#ffe9ad"
+hideLanguage = true
 
   [[markdown.plugins]]
   name = "markdown-it-footnote"

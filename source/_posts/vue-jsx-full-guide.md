@@ -25,7 +25,7 @@ JSX 只是对 JavaScript 的补充并没有浏览器的支持，所以你需要�
 
 对于以下单文件组件:
 
-```html
+```vue
 <template>
   <div>{{ msg }}<div>
 </template>

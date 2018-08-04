@@ -139,8 +139,28 @@ waifus:
 
 <div class="waifu">
   <ul>
-    <li v-for="waifu in $page.attributes.waifus" :key="waifu.name">
+    <li v-for="waifu in orderedWaifus" :key="waifu.name">
       {{ waifu.name }} <span class="cv">{{ waifu.cv }}</span>
     </li>
   </ul> 
 </div>
+
+<script>
+export default {
+  computed: {
+    orderedWaifus() {
+      const cvStats = {}
+      const waifus = this.$page.attributes.waifus
+      waifus.forEach(waifu => {
+        cvStats[waifu.cv] = cvStats[waifu.cv] || []
+        cvStats[waifu.cv].push(waifu)
+      })
+      return Object.keys(cvStats)
+        .sort((a, b) => cvStats[b].length - cvStats[a].length)
+        .reduce((res, name) => {
+          return [...res, ...cvStats[name]]
+        }, [])
+    }
+  }
+}
+</script>

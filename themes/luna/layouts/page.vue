@@ -66,31 +66,6 @@ export default {
 
   mounted() {
     zoom('.page-body img')
-    this.orderWaifu()
-  },
-
-  methods: {
-    // TODO: temp solution
-    orderWaifu() {
-      const $ = document.querySelector.bind(document)
-      const $waifu = $('.waifu')
-      if (!$waifu) return
-      const cvStats = {}
-      Array.prototype.forEach.call($waifu.querySelectorAll('li'), el => {
-        const $cv = el.querySelector('.cv')
-        const cvName = $cv.textContent
-        cvStats[cvName] = cvStats[cvName] || []
-        cvStats[cvName].push(el)
-      })
-      const result = Object.keys(cvStats)
-        .sort((a, b) => cvStats[b].length - cvStats[a].length)
-        .reduce((res, name) => {
-          return [...res, ...cvStats[name]]
-        }, [])
-      $waifu.innerHTML = '<ul></ul>'
-      const $ul = $waifu.querySelector('ul')
-      result.forEach(el => $ul.appendChild(el))
-    }
   },
 
   components: {
@@ -241,11 +216,15 @@ pre
     &:before, &:after
       content: ''
       display: none
-  .highlighted-line
-    background-color: #ffe9ad
-    display: block
-    margin: 0 -20px
-    padding: 0 20px
+      
+@media screen and (max-width: 768px)
+  .pre-wrapper
+    margin-left: -10px
+    margin-right: @margin-left
+    pre
+      padding: 10px
+    .code-mask
+      padding: 10px 0
     
 .footnote-ref
   margin 0 5px

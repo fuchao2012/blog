@@ -3186,10 +3186,6 @@ markdown-it-footnote@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.1.tgz#7f3730747cacc86e2fe0bf8a17a710f34791517a"
 
-markdown-it-highlight-lines@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-it-highlight-lines/-/markdown-it-highlight-lines-1.0.0.tgz#d6b56aca5ab9674cf140214f5591749e87ecbc39"
-
 markdown-it@^8.4.1:
   version "8.4.1"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.1.tgz#206fe59b0e4e1b78a7c73250af9b34a4ad0aaf44"
@@ -3792,9 +3788,9 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-peco@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/peco/-/peco-0.2.1.tgz#7b468d44ef7ee7f64ddefc86fb1e1aa190d71ea8"
+peco@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.npmjs.org/peco/-/peco-0.2.2.tgz#9c9130185b0e2251575390a65c5cfb1157ffaece"
   dependencies:
     "@babel/core" "^7.0.0-beta.46"
     "@babel/plugin-syntax-dynamic-import" "^7.0.0-beta.46"
@@ -3822,7 +3818,6 @@ peco@^0.2.1:
     lodash.get "^4.4.2"
     markdown-it "^8.4.1"
     markdown-it-anchor "^4.0.0"
-    markdown-it-highlight-lines "^1.0.0"
     mini-css-extract-plugin "^0.4.0"
     native-toast "^2.0.0"
     p-limit "^1.2.0"
