@@ -7,10 +7,6 @@ feed = true
 author = "EGOIST"
 email = "0x142857@gmail.com"
 
-[pwa]
-updaterMessage = "网站内容有更新"
-updaterButtonText = "立即更新"
-
 [themeConfig]
 headerTitle = "e.z."
 website = "https://github.com/egoist"
