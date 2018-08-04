@@ -124,7 +124,7 @@ waifus:
     cv: 不详
 ---
 
-## <span>当前</span>
+## 当前
 
 我喜欢小宮惠那的性格，平时是那么灵动、活泼，委屈时的无助却又让人看得心疼。
 
@@ -133,7 +133,7 @@ waifus:
 <!-- ![mordred](https://i.loli.net/2017/11/10/5a0535daceee7.jpg) -->
 ![ena](https://i.loli.net/2017/12/03/5a23dd8a0870c.jpg)
 
-## <span>历史</span>
+## 历史
 
 按照声优出现次数排名:
 
