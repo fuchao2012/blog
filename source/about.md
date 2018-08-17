@@ -13,7 +13,6 @@ subtitle: 先定一个小目标，写出能用的代码就行了。
 - [Twitter](https://twitter.com/_egoistlily)
 - [Telegram](https://t.me/egoistlily)
 - [Instagram](https://instagram.com/egoistian)
-- [微博](http://weibo.com/egojump)
 - [微信](http://ww4.sinaimg.cn/large/a15b4afegw1f0nf2nlbzuj20n00ydtck)
 - [网易云音乐](http://music.163.com/#/user/home?id=12579252)
 - [MyAnimeList](http://myanimelist.net/profile/egoistian)
