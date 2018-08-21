@@ -32,9 +32,3 @@ hideLanguage = true
 
   [[markdown.plugins]]
   name = "markdown-it-footnote"
-
-[plugins]
-
-  [[plugins."peco/plugins/routes"]]
-  path = "/hi"
-  component = "components/hi.vue"
