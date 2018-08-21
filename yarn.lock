@@ -4607,6 +4607,10 @@ schema-utils@^0.4.0, schema-utils@^0.4.3, schema-utils@^0.4.4, schema-utils@^0.4
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
 
+scifi@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.npmjs.org/scifi/-/scifi-0.1.4.tgz#4d514ea11e0b2a6a350a33c6c56addcc9c4e676e"
+
 select@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"

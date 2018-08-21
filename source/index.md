@@ -1,8 +1,61 @@
 <div class="egoist-name">
   egoist
   <span class="dot">.</span>
-  <span class="lily">iroha</span>
+  <span class="lily" ref="name">lily</span>
 </div>
+
+<script>
+import scifi from 'scifi'
+
+const NAMES = [
+  'iroha',
+  'utaha',
+  'mikasa',
+  'ena',
+  'eriri',
+  'rem',
+  'asuna',
+  'asuka',
+  'gahara',
+  'fuuka',
+  'touka',
+  'luna'
+]
+
+export default {
+  data() {
+    return {
+      currentNameIndex: null
+    }
+  },
+  mounted() {
+    this.loop = setInterval(() => {
+      scifi(this.$refs.name, {
+        content: this.getName()
+      })
+    }, 3000)
+  },
+  methods: {
+    getRandomIndex(currentIndex) {
+      const nextIndex = Math.floor(Math.random() * NAMES.length)
+      if (currentIndex === null) {
+        return nextIndex
+      }
+      return currentIndex === nextIndex ? this.getRandomIndex(currentIndex) : nextIndex
+    },
+    getName() {
+      this.currentNameIndex = this.getRandomIndex(this.currentNameIndex)
+      const name = NAMES[this.currentNameIndex]
+      return name
+    }
+  },
+  beforeDestroy() {
+    if (this.loop) {
+      clearInterval(this.loop)
+    }
+  }
+}
+</script>
 
 <style scoped lang="stylus">
 .egoist-name
