@@ -17,7 +17,7 @@
     "markdown-it-footnote": "^3.0.1",
     "medium-zoom": "^0.4.0",
     "nprogress": "^0.2.0",
-    "peco": "^0.2.2",
+    "peco": "uchudenpa/peco#dev",
     "v-tippy": "^2.0.0",
     "vue-feather-icons": "^4.7.0"
   }

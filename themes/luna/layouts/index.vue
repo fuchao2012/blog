@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div class="main">
-      <slot name="body" />  
+      <slot name="default" />  
       <div class="cat" v-if="page.attributes.type === 'tag'">
         &lt;{{ page.tag }}/&gt;
       </div>
@@ -10,7 +10,7 @@
         &lt;{{ page.category }}/&gt;
       </div>
       <div class="post-list">
-        <div class="post-item" v-for="post in page.posts">
+        <div class="post-item" v-for="post in page.posts" :key="post.permalink">
           <h2 class="post-title">
             <router-link :to="post.permalink">
               {{  post.attributes.title }}

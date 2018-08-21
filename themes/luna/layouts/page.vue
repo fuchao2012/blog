@@ -12,7 +12,9 @@
         <div class="alert alert-warning" v-if="page.attributes.warning">
           {{ page.attributes.warning }}
         </div>
-        <slot name="body"></slot>
+        <div class="markdown-body">
+          <slot name="default"></slot>
+        </div>
       </div>
       <div class="report-bugs" v-if="page.attributes.type === 'post'">
         文章勘误可以直接到 <a target="_blank" :href="`https://github.com/egoist/blog/blob/master/source/_posts/${page.slug}.md`">源代码地址</a> 修改或者 <a target="_blank" href="https://github.com/egoist/blog/issues/new">提交 ISSUE</a>，感谢阅读！
