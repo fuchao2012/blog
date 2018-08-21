@@ -1,7 +1,7 @@
 <div class="egoist-name">
   egoist
   <span class="dot">.</span>
-  <span class="lily">lily</span>
+  <span class="lily">iroha</span>
 </div>
 
 <style scoped lang="stylus">
