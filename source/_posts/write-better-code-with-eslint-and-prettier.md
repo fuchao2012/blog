@@ -29,14 +29,8 @@ __为什么使用这种方法: 希望格式化结果完全符合 Prettier 的要
   },
   "eslintConfig": {
     "extends": [
-      "prettier"
-    ],
-    "plugins": [
-      "prettier"
-    ],
-    "rules": {
-      "prettier/prettier": "error"
-    }
+      "plugin:prettier/recommended"
+    ]
   },
   "prettier": {
     "singleQuote": true,
@@ -46,6 +40,7 @@ __为什么使用这种方法: 希望格式化结果完全符合 Prettier 的要
 ```
 
 你可以使用大多数编辑器里 ESLint 插件提供的 `autoFixOnSave` 选项来在保存时自动格式化。
+
 
 ## 使用 prettier-eslint-cli
 
@@ -74,3 +69,32 @@ __为什么使用它: 希望格式化结果完全符合 ESLint 的要求。__
 ```
 
 除了命令行的 `npm run format`，同时你也可以使用编辑器里的 Prettier 插件，并启用 `eslintIntegration` 来在编辑器里自动格式化代码。
+
+## 在提交代码时格式化
+
+安装需要的依赖:
+
+```bash
+yarn add lint-staged husky@next --dev
+```
+
+[husky](https://github.com/typicode/husky) 被用来添加一些 git 钩子，这里我们需要一个用 `pre-commit` 在每次 `git commit` 操作时执行 `lint-staged` 命令。
+
+而 [lint-staged](https://github.com/okonet/lint-staged) 可以对 git 暂存区文件(也就是你想要 commit 的文件)执行一些操作，比如这里我们想在代码被修改后将其格式化:
+
+```json
+{
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
+```
+
+## 个人喜好
+
+我个人倾向使用 eslint-plugin-prettier，因为 ESLint 一般是必需的，而使用 ESLint 插件的成本明显比使用一个新的命令行工具(即 prettier-eslint-cli)的成本低多了。
