@@ -16,11 +16,17 @@ tags:
 
 __为什么使用这种方法: 希望格式化结果完全符合 Prettier 的要求。__
 
+相关依赖:
+
+```bash
+yarn add prettier eslint-config-prettier eslint-plugin-prettier --dev
+```
+
 `eslint-plugin-prettier` 的工作原理是，对比格式化前和用 Prettier 格式化后的代码，有不一致的地方就会报错，然后你可以手动运行 `eslint --fix` 来修复。
 
 不过 Prettier 的格式化很可能和你使用的 ESLint 配置冲突，比如你的 ESLint 设定的不使用分号，而 Prettier 默认使用分号，这时候你需要配置 Prettier 让它不使用分号。反之如果你想使用 Prettier 的规则而不是 ESLint 的，为防止 ESLint 报错，你需要使用 `eslint-config-prettier` 来关闭所有可能引起冲突的规则。
 
-总结一下我的配置如下 `package.json`:
+总结一下我的配置如下 `package.json` (为了方便展示省略了不必要的部分):
 
 ```json
 {
@@ -46,9 +52,15 @@ __为什么使用这种方法: 希望格式化结果完全符合 Prettier 的要
 
 __为什么使用它: 希望格式化结果完全符合 ESLint 的要求。__
 
+相关依赖:
+
+```bash
+yarn add prettier-eslint-cli --dev
+```
+
 使用 ESLint 与 `eslint-plugin-prettier` 的结果是最终得到的代码是充分尊重 Prettier 的结果，而 `prettier-eslint-cli` 则是先执行 Prettier 然后再自动使用 `eslint --fix` 将与 ESLint 规则冲突的代码修正成 ESLint 想要的结果。这样其实引入 Prettier 不会影响你原有的设置。
 
-总结一下我的配置如下 `package.json`:
+总结一下我的配置如下 `package.json` (为了方便展示省略了不必要的部分):
 
 ```json
 {
