@@ -28,15 +28,17 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier --dev
 
 总结一下我的配置如下 `package.json` (为了方便展示省略了不必要的部分):
 
-```json
+```json {5-11}
 {
   "scripts": {
     "lint": "eslint *.js"
   },
   "eslintConfig": {
-    "extends": [
-      "plugin:prettier/recommended"
-    ]
+    "extends": ["prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+      "prettier/prettier": "error"
+    }
   },
   "prettier": {
     "singleQuote": true,
@@ -44,6 +46,16 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier --dev
   }
 }
 ```
+
+上面高亮的 `eslintConfig` 可以简化为:
+
+```json
+{
+  "extends": ["plugin:prettier/recommended"]
+}
+```
+
+`eslint-plugin-prettier` 提供的 `recommended` 配置会自动添加 `eslint-config-prettier` 和 `eslint-plugin-prettier`，为你省去一些手动的配置。
 
 你可以使用大多数编辑器里 ESLint 插件提供的 `autoFixOnSave` 选项来在保存时自动格式化。
 
