@@ -37,6 +37,7 @@ export default {
       margin-right: 5px
   a
     color: #93a1a1
+    text-decoration: none
     &:hover
       text-decoration: underline
       
