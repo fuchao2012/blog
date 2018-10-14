@@ -12,7 +12,4 @@ title: 捐赠支持
 
 ## <span>微信转账</span>
 
-
-
-<img src="https://ooo.0o0.ooo/2016/12/01/584019a396d10.jpg
-" alt="wechat" width="500">
+<img src="https://user-images.githubusercontent.com/8784712/46912648-9754a980-cfad-11e8-9ca7-40d15051862f.png" alt="wechat" width="500">
