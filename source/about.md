@@ -12,7 +12,6 @@ subtitle: 先定一个小目标，写出能用的代码就行了。
 - [GitHub](https://github.com/egoist)
 - [Twitter](https://twitter.com/_egoistlily)
 - [Telegram](https://t.me/egoistlily)
-- [微信](http://ww4.sinaimg.cn/large/a15b4afegw1f0nf2nlbzuj20n00ydtck)
 - [网易云音乐](http://music.163.com/#/user/home?id=12579252)
 - [AniList](https://anilist.co/user/egoistlily/)
 - 中国成都
