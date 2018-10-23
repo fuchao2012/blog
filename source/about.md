@@ -41,11 +41,11 @@ subtitle: 先定一个小目标，写出能用的代码就行了。
 ## 装备
 
 - 电脑: MacBook Pro 840 (2015 early)
-- 手机: iPhone SE (主要) / 小米 5 (偶尔用)
+- 手机: OnePlus 6
 - 平板: iPad Pro 第二代 + Apple Pencil 第一代
 - 鼠标: Razer 地狱狂蛇 2014 (没在用)
 - 水杯: Lock&Lock LHC4125
-- 其它: Kindle (偶尔看)
+- 其它: Kindle (吃灰)
 
 ## 前端开发
 
