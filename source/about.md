@@ -43,7 +43,7 @@ subtitle: 先定一个小目标，写出能用的代码就行了。
 - 电脑: MacBook Pro 840 (2015 early)
 - 手机: OnePlus 6
 - 平板: iPad Pro 第二代 + Apple Pencil 第一代
-- 鼠标: Razer 地狱狂蛇 2014 (没在用)
+- 鼠标: 罗技 M558
 - 水杯: Lock&Lock LHC4125
 - 其它: Kindle (吃灰)
 
