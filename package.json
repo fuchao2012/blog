@@ -4,9 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "peco build",
-    "dev": "peco dev",
-    "surge": "surge -d https://egoist-new.surge.sh -p .peco/website "
+    "build": "saber build",
+    "dev": "saber"
   },
   "devDependencies": {
     "stylus": "^0.54.5",
@@ -17,7 +16,9 @@
     "markdown-it-footnote": "^3.0.1",
     "medium-zoom": "^0.4.0",
     "nprogress": "^0.2.0",
-    "peco": "upash/peco#dev",
+    "saber": "^0.2.3",
+    "saber-highlighter-prism": "^0.1.0",
+    "saber-plugin-google-analytics": "^0.0.2",
     "scifi": "^0.1.4",
     "v-tippy": "^2.0.0",
     "vue-feather-icons": "^4.7.0"

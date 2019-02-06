@@ -1,0 +1,1 @@
+module.exports = text => require('limax')(text, { tone: false })

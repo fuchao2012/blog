@@ -1,8 +1,5 @@
-> I AM REWRITING PECO!
-
 # EGOIST's blog
 
-This is my blog powered by [Peco](https://github.com/egojump/peco).
+This is my Chinese blog powered by [Saber](https://github.com/egoist/saber).
 
-Peco is a static website generator that aims to be as simple as Hexo but also takes advantage of the modern front-end technology like Webpack, Vue, SSG (server-side generated).
-
+EGOIST 的中文博客。

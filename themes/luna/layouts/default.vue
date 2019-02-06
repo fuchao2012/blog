@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="report-bugs" v-if="page.attributes.type === 'post'">
-        文章勘误可以直接到 <a target="_blank" :href="`https://github.com/egoist/blog/blob/master/source/_posts/${page.slug}.md`">源代码地址</a> 修改或者 <a target="_blank" href="https://github.com/egoist/blog/issues/new">提交 ISSUE</a>，感谢阅读！
+        文章勘误可以直接到 <a target="_blank" :href="`https://github.com/egoist/blog/blob/master/source/_posts/${page.attributes.slug}.md`">源代码地址</a> 修改或者 <a target="_blank" href="https://github.com/egoist/blog/issues/new">提交 ISSUE</a>，感谢阅读！
       </div>
     </div>
     <Footer />
@@ -26,8 +26,8 @@
 
 <script>
 import zoom from 'medium-zoom'
-import Header from '@theme/components/Header'
-import Footer from '@theme/components/Footer'
+import Header from '#theme/components/Header.vue'
+import Footer from '#theme/components/Footer.vue'
 
 export default {
   props: ['page'],

@@ -1,6 +1,18 @@
 import Vue from 'vue'
 import 'nprogress/nprogress.css'
-import '@theme/styles/main.styl'
+import '#theme/styles/main.styl'
+import { themeConfig, siteConfig } from 'saber-config'
+
+Vue.mixin({
+  computed: {
+    $themeConfig() {
+      return themeConfig
+    },
+    $siteConfig() {
+      return siteConfig
+    }
+  }
+})
 
 export default ({ router, rootOptions }) => {
   if (process.browser) {
@@ -23,9 +35,7 @@ export default ({ router, rootOptions }) => {
     })
   }
 
-  rootOptions.head = {
-    htmlAttrs: {
-      lang: 'zh-CN'
-    }
+  rootOptions.head.htmlAttrs = {
+    lang: 'zh-CN'
   }
 }

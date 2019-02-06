@@ -1,9 +1,9 @@
+theme = "./themes/luna"
+
+[siteConfig]
 title = "庶民样本"
 description = "EGOIST 在这里写作"
-theme = "./themes/luna"
-googleAnalytics = "UA-54857209-6"
 url = "https://egoist.moe"
-feed = true
 author = "EGOIST"
 email = "0x142857@gmail.com"
 
@@ -26,9 +26,18 @@ twitter = "_egoistlily"
   link = "/donate"
 
 [markdown]
-slugify = "limax"
-highlightedLineBackground = "#ffe9ad"
-hideLanguage = true
+slugify = "./utils/slugify"
+highlighter = "prism"
 
   [[markdown.plugins]]
-  name = "markdown-it-footnote"
+  resolve = "markdown-it-footnote"
+
+[permalinks]
+page = "/:slug"
+post = "/:year/:month/:day/:slug"
+
+[[plugins]]
+resolve = "saber-plugin-google-analytics"
+  
+  [plugins.options]
+  trackId = "UA-54857209-6"

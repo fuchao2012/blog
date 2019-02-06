@@ -12,7 +12,7 @@
       <div class="post-list">
         <div class="post-item" v-for="post in page.posts" :key="post.permalink">
           <h2 class="post-title">
-            <router-link :to="post.permalink">
+            <router-link :to="post.attributes.permalink">
               {{  post.attributes.title }}
             </router-link>
           </h2>
@@ -40,19 +40,19 @@
 </template>
 
 <script>
-import Header from '@theme/components/Header'
-import Footer from '@theme/components/Footer'
+import Header from '#theme/components/Header.vue'
+import Footer from '#theme/components/Footer.vue'
 
 export default {
   props: ['page'],
 
   head() {
     return {
-      title: this.$siteData.title,
+      title: this.$siteConfig.title,
       meta: [
         {
           name: 'description',
-          content: this.$siteData.description
+          content: this.$siteConfig.description
         }
       ],
       link: [
