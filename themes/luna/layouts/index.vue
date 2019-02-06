@@ -12,27 +12,27 @@
       <div class="post-list">
         <div class="post-item" v-for="post in page.posts" :key="post.permalink">
           <h2 class="post-title">
-            <router-link :to="post.attributes.permalink">
+            <saber-link :to="post.attributes.permalink">
               {{  post.attributes.title }}
-            </router-link>
+            </saber-link>
           </h2>
         </div>
       </div>
       <div class="pagination" v-if="page.pagination">
-        <router-link 
+        <saber-link 
           class="prev" 
           title="旧的文章" 
           v-if="page.pagination.hasPrev"
           :to="page.pagination.prevLink">
           旧的文章
-        </router-link>
-        <router-link 
+        </saber-link>
+        <saber-link 
           class="next" 
           title="新的文章" 
           v-if="page.pagination.hasNext"
           :to="page.pagination.nextLink">
           新的文章
-        </router-link>
+        </saber-link>
       </div>
     </div>
     <Footer />

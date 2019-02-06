@@ -3,7 +3,7 @@
     <h1>Page Not Found :(</h1>
     <span v-if="isDemo">maybe it's moved to <a :href="demoURL" target="_blank">{{ demoURL }}</a></span>
     <div class="backhome">
-      <router-link to="/">← Back to HomePage</router-link>
+      <saber-link to="/">← Back to HomePage</saber-link>
     </div>
   </div>
 </template>

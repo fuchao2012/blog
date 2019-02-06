@@ -1,13 +1,13 @@
 <template>
   <header class="header">
     <h1 class="site-name">
-      <router-link to="/">
+      <saber-link to="/">
         {{ $themeConfig.headerTitle || $siteConfig.title }}
-      </router-link>
+      </saber-link>
     </h1>
     <ul class="nav" v-if="$themeConfig.nav">
-      <li v-for="item in $themeConfig.nav" class="nav-item">
-        <router-link :to="item.link">{{ item.title }}</router-link>
+      <li v-for="(item, index) in $themeConfig.nav" class="nav-item" :key="index">
+        <saber-link :to="item.link">{{ item.title }}</saber-link>
       </li>
     </ul>
   </header>
