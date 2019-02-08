@@ -130,6 +130,7 @@ waifus:
     cv: 东山奈央
   - name: 橘瑠衣
     cv: 内田真礼
+  - name: 黑川雪
 ---
 
 ## 当前
@@ -148,7 +149,7 @@ waifus:
 <div class="waifu">
   <ul>
     <li v-for="waifu in orderedWaifus" :key="waifu.name">
-      {{ waifu.name }} <span class="cv">{{ waifu.cv }}</span>
+      {{ waifu.name }} <span v-if="waifu.cv" class="cv">{{ waifu.cv }}</span>
     </li>
   </ul> 
 </div>
