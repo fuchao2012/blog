@@ -143,32 +143,12 @@ waifus:
 
 ## 历史
 
-按照声优出现次数排名:
+以下排名不分先后顺序:
 
 <div class="waifu">
   <ul>
-    <li v-for="waifu in orderedWaifus" :key="waifu.name">
+    <li v-for="waifu in $page.attributes.waifus" :key="waifu.name">
       {{ waifu.name }} <span v-if="waifu.cv" class="cv">{{ waifu.cv }}</span>
     </li>
   </ul> 
 </div>
-
-<script>
-export default {
-  computed: {
-    orderedWaifus() {
-      const cvStats = {}
-      const waifus = this.$page.attributes.waifus
-      waifus.forEach(waifu => {
-        cvStats[waifu.cv] = cvStats[waifu.cv] || []
-        cvStats[waifu.cv].push(waifu)
-      })
-      return Object.keys(cvStats)
-        .sort((a, b) => cvStats[b].length - cvStats[a].length)
-        .reduce((res, name) => {
-          return [...res, ...cvStats[name]]
-        }, [])
-    }
-  }
-}
-</script>
