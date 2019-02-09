@@ -135,12 +135,11 @@ waifus:
 
 ## 当前
 
-我喜欢小宮惠那的性格，平时是那么灵动、活泼，委屈时的无助却又让人看得心疼。
-
 <!-- ![altair](https://i.loli.net/2017/09/02/59aa9b2fe0303.jpg) -->
 <!-- ![saber](https://i.loli.net/2017/09/02/59aa9b9a87d3a.jpg) -->
 <!-- ![mordred](https://i.loli.net/2017/11/10/5a0535daceee7.jpg) -->
-![ena](https://i.loli.net/2017/12/03/5a23dd8a0870c.jpg)
+<!-- ![ena](https://i.loli.net/2017/12/03/5a23dd8a0870c.jpg) -->
+![rui](https://ws1.sinaimg.cn/large/006tNc79gy1g0088oc0lkj31hc0u0npd.jpg)
 
 ## 历史
 
