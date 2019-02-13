@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "saber build",
+    "generate": "saber generate",
     "dev": "saber"
   },
   "devDependencies": {
