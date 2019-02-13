@@ -16,9 +16,9 @@
     "markdown-it-footnote": "^3.0.1",
     "medium-zoom": "^0.4.0",
     "nprogress": "^0.2.0",
-    "saber": "^0.2.3",
+    "saber": "^0.2.4",
     "saber-highlighter-prism": "^0.1.0",
-    "saber-plugin-google-analytics": "^0.0.2",
+    "saber-plugin-google-analytics": "^0.0.3",
     "scifi": "^0.1.4",
     "v-tippy": "^2.0.0",
     "vue-feather-icons": "^4.7.0"
