@@ -1,5 +1,6 @@
 ---
 title: 二〇一六年一月新番推荐
+layout: post
 date: 2016-01-30 18:54:29
 tags:
 	- anime

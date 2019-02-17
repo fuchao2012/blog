@@ -1,5 +1,6 @@
 ---
 title: Revue 指南
+layout: post
 tags:
   - javascript
   - redux

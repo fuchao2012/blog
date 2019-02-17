@@ -1,5 +1,6 @@
 ---
 title: 那些吸引我的女孩子们
+layout: page
 subtitle: 来自 EGOIST 的告白
 waifus:
   - name: 秋月风夏
@@ -31,7 +32,6 @@ waifus:
   - name: 小宮惠那
     cv: Lynn
   - name: 碧井风夏
-    cv: 无
   - name: 牧濑红莉栖
     cv: 今井麻美
   - name: 雪之下雪乃
@@ -143,10 +143,10 @@ waifus:
 
 ## 历史
 
-以下排名不分先后顺序:
+EGOIST 有 {{ $page.attributes.waifus.length }} 个喜欢的女生呢，以下排名不分先后:
 
 <div class="waifu">
-  <ul>
+  <ul style="list-style:none">
     <li v-for="waifu in $page.attributes.waifus" :key="waifu.name">
       {{ waifu.name }} <span v-if="waifu.cv" class="cv">{{ waifu.cv }}</span>
     </li>

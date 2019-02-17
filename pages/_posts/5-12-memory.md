@@ -1,5 +1,6 @@
 ---
 title: 5·12 那天我在做什么
+layout: post
 date: 2017-05-12 20:44:40
 tags:
 ---

@@ -1,5 +1,6 @@
 ---
 title: 如何部署 Node.js 应用
+layout: post
 subtitle: 你告诉我还能怎么办
 date: 2016-03-23 15:37:20
 tags:

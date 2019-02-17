@@ -1,5 +1,6 @@
 ---
 title: 新世纪福音脚手架
+layout: post
 subtitle: she said, "it's futuristic."
 date: 2017-05-21 20:20:34
 tags:

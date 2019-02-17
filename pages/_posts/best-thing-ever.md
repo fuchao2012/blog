@@ -1,5 +1,6 @@
 ---
 title: 天下第一有趣的事
+layout: post
 date: 2015-11-04 23:23:31
 tags:
 - thoughts

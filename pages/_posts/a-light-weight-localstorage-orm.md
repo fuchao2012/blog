@@ -1,5 +1,6 @@
 ---
 title: 一个简单的 localStorage 扩展实现
+layout: post
 date: 2015-09-30 12:56:03
 tags: 
 - localStorage
@@ -106,6 +107,7 @@ const author = User.extend('some_object_id')
 
 Post.add({
   title: 'mt post title',
+layout: post
   author: author
 })
 

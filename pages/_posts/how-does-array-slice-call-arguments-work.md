@@ -1,5 +1,6 @@
 ---
 title: '[].slice.call(arguments) 是如何工作的'
+layout: post
 date: 2015-12-13 22:39:30
 tags:
   - javascript

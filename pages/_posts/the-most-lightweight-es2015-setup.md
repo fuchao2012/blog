@@ -1,5 +1,6 @@
 ---
 title: 最轻量的 ES2015 编译配置
+layout: post
 subtitle: Sometimes Babel, Sometimes Buble.
 date: 2017-04-28 21:11:32
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Node.js 模块风格指南
+layout: post
 subtitle: 编写高质量、可复用的 Node.js 模块
 date: 2016-01-29 09:44:30
 tags:

@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="report-bugs" v-if="page.attributes.type === 'post'">
-        文章勘误可以直接到 <a target="_blank" :href="`https://github.com/egoist/blog/blob/master/source/_posts/${page.attributes.slug}.md`">源代码地址</a> 修改或者 <a target="_blank" href="https://github.com/egoist/blog/issues/new">提交 ISSUE</a>，感谢阅读！
+        文章勘误可以直接到 <a target="_blank" :href="`https://github.com/egoist/blog/blob/master/pages/_posts/${page.attributes.slug}.md`">源代码地址</a> 修改或者 <a target="_blank" href="https://github.com/egoist/blog/issues/new">提交 ISSUE</a>，感谢阅读！
       </div>
     </div>
     <Footer />
@@ -191,7 +191,7 @@ export default {
     font-size: 15px
 </style>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 code
   font-size: 1rem
   tab-size: 4
@@ -218,9 +218,20 @@ pre
     &:before, &:after
       content: ''
       display: none
+
+.code-wrapper
+  background-color: transparent
+  &:before
+    color: #b1b1b1
+
+.code-line.highlighted
+  background-color: #fdf0cd
+
+.code-mask, .code-block 
+  border-radius: 0
       
 @media screen and (max-width: 768px)
-  .pre-wrapper
+  .code-wrapper
     margin-left: -10px
     margin-right: @margin-left
     pre

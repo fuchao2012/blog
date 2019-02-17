@@ -1,5 +1,6 @@
 ---
 title: 为什么我选择用 tab 而不是 space 来缩进
+layout: post
 date: 2016-01-17 22:33:44
 tags: 
   - javascript

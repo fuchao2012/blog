@@ -1,5 +1,6 @@
 ---
 title: Vue JSX 使用指南
+layout: post
 subtitle: JSX 相关专利归 NoFaceBoooooooooook 所有
 date: 2017-09-21 12:19:14
 tags:

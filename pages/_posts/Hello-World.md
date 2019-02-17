@@ -1,5 +1,6 @@
 ---
 title: Hello World
+layout: post
 date: 2015-09-23 01:09:15
 categories:
 	- Diary

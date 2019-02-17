@@ -1,5 +1,6 @@
 ---
 title: 二〇一六年的前端入门指南
+layout: post
 subtitle: JavaScript is supposed to be easy and powerful, for all of us.
 date: 2016-02-06 15:10:05
 tags:

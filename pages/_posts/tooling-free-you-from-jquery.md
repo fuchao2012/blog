@@ -1,5 +1,6 @@
 ---
 title: tooling 让你从 jQuery 中解脱出来
+layout: post
 date: 2016-01-19 20:43:58
 subtitle: jQuery 只是个引子，泛指那些不用构建工具的 “显得很方便” 的开发方式
 tags:

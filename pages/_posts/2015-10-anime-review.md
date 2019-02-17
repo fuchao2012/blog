@@ -1,10 +1,11 @@
 ---
 title: 二〇一五年十月新番回顾
+layout: post
 date: 2016-01-11 12:12:34
 tags:
-  -anime
-  -review
-  -animegirl
+  - anime
+  - review
+  - animegirlsxx
 ---
 几个月前，也就是十月份的时候写了篇[二〇一五年十月新番推荐](/2015/10/13/2015-10-anime-recommendations/)，现在已经是一月份，在新老后宫交替的时节写回顾什么的，saikou!
 

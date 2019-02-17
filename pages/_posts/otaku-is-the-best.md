@@ -1,5 +1,6 @@
 ---
 title: 死宅什么的最好了
+layout: post
 date: 2016-06-23 16:02:49
 tags:
 - otaku

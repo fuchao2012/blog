@@ -38,4 +38,13 @@ export default ({ router, rootOptions }) => {
   rootOptions.head.htmlAttrs = {
     lang: 'zh-CN'
   }
+
+  rootOptions.head.link = [
+    {
+      rel: 'alternate',
+      title: `${siteConfig.title} - Feed`,
+      type: 'application/json',
+      href: `${siteConfig.url.replace(/\/$/, '')}/feed.json`
+    }
+  ]
 }

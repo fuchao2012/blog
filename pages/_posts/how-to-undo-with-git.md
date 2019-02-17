@@ -1,5 +1,6 @@
 ---
 title: 如何在 Git 中使用撤消操作
+layout: post
 date: 2015-10-04 14:15:59
 tags:
 - git

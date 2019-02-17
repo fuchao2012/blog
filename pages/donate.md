@@ -1,5 +1,6 @@
 ---
 title: 捐赠支持
+layout: page
 ---
 
 文章基于 [署名-非商业性使用-禁止演绎 4.0 协议](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh) 进行共享，[开源项目](https://github.com/egoist)都以 [MIT](https://egoist.mit-license.org/) 协议发布。

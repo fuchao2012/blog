@@ -1,5 +1,6 @@
 ---
 title: 菜月昴前传
+layout: post
 subtitle: 是人渣、废柴抑或是英雄、天使之路?
 date: 2016-08-03 22:46:52
 tags:

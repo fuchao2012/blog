@@ -1,5 +1,6 @@
 ---
 title: PostgreSQL 简明指南
+layout: post
 date: 2016-04-25 17:06:05
 tags:
   - postgresql

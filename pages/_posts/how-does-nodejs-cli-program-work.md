@@ -1,5 +1,6 @@
 ---
 title: Node.js 命令行程序是如何工作的
+layout: post
 subtitle: 命令行程序，也就是通过文本在终端中与程序进行交互
 date: 2017-10-18 17:15:45
 tags:

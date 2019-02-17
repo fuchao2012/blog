@@ -1,5 +1,6 @@
 ---
 title: 二〇一六年七月新番推荐
+layout: post
 date: 2016-07-03 22:22:26
 tags:
  - animes

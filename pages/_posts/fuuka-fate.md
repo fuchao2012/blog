@@ -1,5 +1,6 @@
 ---
 title: 风夏的前世今生
+layout: post
 date: 2017-02-11 19:59:29
 tags:
 - fuuka

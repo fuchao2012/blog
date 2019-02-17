@@ -1,5 +1,6 @@
 ---
 title: 二〇一六年四月新番推荐
+layout: post
 subtitle: 没有薰的四月，我还有新番
 date: 2016-04-10 17:18:27
 tags:

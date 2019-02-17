@@ -1,5 +1,6 @@
 ---
 title: 关于这个可爱的男孩子
+layout: page
 subtitle: 先定一个小目标，写出能用的代码就行了。
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: 在终端里使用第三方登录
+layout: post
 date: 2015-10-26 17:44:52
 tags:
 - terminal

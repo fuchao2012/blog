@@ -1,5 +1,6 @@
 ---
 title: 动漫与成见
+layout: post
 date: 2015-03-25 09:04:00
 categories:
   - Anime

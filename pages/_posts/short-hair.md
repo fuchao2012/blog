@@ -1,5 +1,6 @@
 ---
 title: 短发女生
+layout: post
 date: 2018/06/14
 ---
 

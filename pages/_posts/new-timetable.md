@@ -1,5 +1,6 @@
 ---
 title: 新的作息时间
+layout: post
 date: 2016-03-03 15:39:02
 tags:
   - life

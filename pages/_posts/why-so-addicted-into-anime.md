@@ -1,5 +1,6 @@
 ---
 title: 为什么动漫如此吸引我？
+layout: post
 date: 2015-07-10 09:08:51
 categories:
   - Anime

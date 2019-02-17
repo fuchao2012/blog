@@ -1,5 +1,6 @@
 ---
 title: Git 备忘录
+layout: post
 date: 2015-10-07 21:18:54
 tags:
 - git

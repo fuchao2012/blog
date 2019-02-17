@@ -1,7 +1,8 @@
 ---
 title: 什么是前端开发
+layout: post
 date: 2018-08-21
-published: false
+draft: true
 warning: 本文正在撰写中...
 ---
 一个网页应用或者移动应用的开发通常分为两大块，后端和前端:

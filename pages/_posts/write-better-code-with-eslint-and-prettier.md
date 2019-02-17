@@ -1,5 +1,6 @@
 ---
 title: 用 ESLint 和 Prettier 写出高质量代码
+layout: post
 subtitle: 当然你的代码本身不能是无意义的
 date: 2017-12-11 21:37:05
 tags:
@@ -28,7 +29,7 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier --dev
 
 总结一下我的配置如下 `package.json` (为了方便展示省略了不必要的部分):
 
-```json {5-11}
+```json {highlightLines: ['5-11']}
 {
   "scripts": {
     "lint": "eslint *.js"

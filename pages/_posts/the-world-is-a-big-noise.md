@@ -1,5 +1,6 @@
 ---
 title: 世界真喧扰
+layout: post
 date: 2017-05-04 13:57:06
 tags:
 ---

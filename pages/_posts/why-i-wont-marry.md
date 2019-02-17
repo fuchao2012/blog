@@ -1,5 +1,6 @@
 ---
 title: 为什么我不会结婚
+layout: post
 date: 2016-04-02 19:27:34
 tags:
 ---

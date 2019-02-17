@@ -1,5 +1,6 @@
 ---
 title: 用 Jest 测试 JavaScript 应用
+layout: post
 date: 2017-11-26 15:05:04
 tags:
   - jest

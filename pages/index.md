@@ -1,3 +1,7 @@
+---
+layout: index
+---
+
 <div class="egoist-name">
   egoist
   <span class="dot">.</span>

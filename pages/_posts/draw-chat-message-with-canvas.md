@@ -1,5 +1,6 @@
 ---
 title: 用 canvas 画一个聊天消息
+layout: post
 subtitle: 看了你就学不会 canvas 了
 date: 2017-09-15 21:58:02
 tags:

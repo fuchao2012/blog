@@ -1,5 +1,6 @@
 ---
 title: 二〇一五年十月新番推荐
+layout: post
 date: 2015-10-13 11:29:50
 tags:
 - anime

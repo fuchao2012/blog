@@ -1,5 +1,6 @@
 ---
 title: "Bili: 打包 JS 库的瑞士军刀"
+layout: post
 subtitle: 基于 Rollup 的打包工具
 date: 2017-07-08 15:13:17
 tags:

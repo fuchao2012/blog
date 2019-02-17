@@ -1,5 +1,6 @@
 ---
 title: 优雅地打包前端 JavaScript 库
+layout: post
 date: 2016-11-16 15:55:48
 tags:
   - javascript

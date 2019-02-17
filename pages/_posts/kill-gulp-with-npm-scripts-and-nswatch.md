@@ -1,5 +1,6 @@
 ---
 title: 用 npm scripts 和 nswatch 替代 gulp
+layout: post
 subtitle: Long live gulp, I use npm script
 date: 2016-08-29 16:54:30
 tags:

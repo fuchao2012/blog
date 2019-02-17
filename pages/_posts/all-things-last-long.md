@@ -1,5 +1,6 @@
 ---
 title: 一切漫长的
+layout: post
 date: 2015-06-12 16:24:51
 categories:
   - Diary

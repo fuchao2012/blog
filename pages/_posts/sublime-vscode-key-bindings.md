@@ -1,5 +1,6 @@
 ---
 title: Sublime Text 和 VS Code 常用快捷键
+layout: post
 date: 2016-10-05 21:00:47
 tags:
   - sublime
