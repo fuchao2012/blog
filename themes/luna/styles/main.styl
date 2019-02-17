@@ -30,7 +30,10 @@ $spinnerColor = #ff69b4
 #nprogress .peg
   box-shadow: 0 0 10px $spinnerColor, 0 0 5px $spinnerColor
 
-  
+// override medium-zoom
+.medium-zoom-overlay
+  z-index: 2000
+
 @import './highlight.styl'
 
 @media screen and (max-width: 768px)
