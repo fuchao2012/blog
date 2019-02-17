@@ -4216,10 +4216,10 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-saber-generator-feed@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/saber-generator-feed/-/saber-generator-feed-0.0.1.tgz#37e9058df131335a1b3a6301dc68e4194b2fbcf2"
-  integrity sha512-sw8sMIq/FIxgO3nrUIyo9c1dzgWMNDiBt+rl6v70DweUPCGtg5+ogKPDsKkJhMOuf/lYYNp84RMfTjbGTfIFsA==
+saber-generator-feed@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/saber-generator-feed/-/saber-generator-feed-0.0.2.tgz#eecda4187372ad8a0ac2ed1c77d887a1cd8a945e"
+  integrity sha512-dBjgRx29MsJyPFdBSkI8qsFO3/ZO8eidnpBsh99iITdh3yihK5PY0skEHXhRfsuYaeit67uhiaj0h0gfM2Bgcg==
 
 saber-highlighter-prism@^0.1.0:
   version "0.1.0"
