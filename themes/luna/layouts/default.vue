@@ -66,8 +66,8 @@ export default {
   },
 
   mounted() {
-    const mediumZoom = require('medium-zoom')
-    
+    const mediumZoom = require('medium-zoom').default
+
     const zoom = mediumZoom('.page-body img')
 
     let oldFilter
