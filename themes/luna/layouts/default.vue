@@ -25,7 +25,6 @@
 </template>
 
 <script>
-import mediumZoom from 'medium-zoom'
 import Header from '#theme/components/Header.vue'
 import Footer from '#theme/components/Footer.vue'
 
@@ -67,6 +66,8 @@ export default {
   },
 
   mounted() {
+    const mediumZoom = require('medium-zoom')
+    
     const zoom = mediumZoom('.page-body img')
 
     let oldFilter
