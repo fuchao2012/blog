@@ -14,7 +14,7 @@
   "dependencies": {
     "limax": "^1.6.0",
     "markdown-it-footnote": "^3.0.1",
-    "medium-zoom": "^0.4.0",
+    "medium-zoom": "^1.0.3",
     "nprogress": "^0.2.0",
     "saber": "^0.2.9",
     "saber-generator-feed": "^0.0.2",

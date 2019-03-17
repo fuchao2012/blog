@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import zoom from 'medium-zoom'
+import mediumZoom from 'medium-zoom'
 import Header from '#theme/components/Header.vue'
 import Footer from '#theme/components/Footer.vue'
 
@@ -67,7 +67,20 @@ export default {
   },
 
   mounted() {
-    zoom('.page-body img')
+    const zoom = mediumZoom('.page-body img')
+
+    let oldFilter
+
+    zoom.on('open', () => {
+      const img = zoom.getZoomedImage()
+      oldFilter = img.style.filter
+      img.style.filter = 'none'
+    })
+
+    zoom.on('close', () => {
+      const img = zoom.getZoomedImage()
+      img.style.filter = oldFilter
+    })
   },
 
   components: {
