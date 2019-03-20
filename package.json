@@ -16,10 +16,11 @@
     "markdown-it-footnote": "^3.0.1",
     "medium-zoom": "^1.0.3",
     "nprogress": "^0.2.0",
-    "saber": "^0.2.9",
+    "saber": "^0.2.18",
     "saber-generator-feed": "^0.0.2",
     "saber-highlighter-prism": "^0.1.0",
     "saber-plugin-google-analytics": "^0.0.3",
+    "saber-query-posts": "^0.0.2",
     "scifi": "^0.1.4",
     "v-tippy": "^2.0.0",
     "vue-feather-icons": "^4.7.0"

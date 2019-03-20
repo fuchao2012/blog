@@ -16,6 +16,14 @@
           <slot name="default"></slot>
         </div>
       </div>
+      <div class="prev-next" v-if="page.prevPost || page.nextPost">
+        <saber-link v-if="page.prevPost" :to="page.prevPost.attributes.permalink" class="prev">
+          ← {{ page.prevPost.attributes.title }}
+        </saber-link>
+        <saber-link v-if="page.nextPost" :to="page.nextPost.attributes.permalink" class="next">
+          {{ page.nextPost.attributes.title }} →
+        </saber-link>
+      </div>
       <div class="report-bugs" v-if="page.attributes.type === 'post'">
         文章勘误可以直接到 <a target="_blank" :href="`https://github.com/egoist/blog/blob/master/pages/_posts/${page.attributes.slug}.md`">源代码地址</a> 修改或者 <a target="_blank" href="https://github.com/egoist/blog/issues/new">提交 ISSUE</a>，感谢阅读！
       </div>
@@ -195,6 +203,11 @@ export default {
   color: #cc1f1a
   background-color: #fcebea
   margin-bottom: 30px
+
+.prev-next
+  overflow: auto
+  .next
+    float: right
 
 @media screen and (max-width: 768px)
   .page-title

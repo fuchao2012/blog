@@ -44,3 +44,8 @@ resolve = "saber-plugin-google-analytics"
 
 [[plugins]]
 resolve = "saber-generator-feed"
+
+[[plugins]]
+# inject posts to / and generate tags page
+# saber no longer does this automatically so we add this plugin
+resolve = "saber-query-posts"
