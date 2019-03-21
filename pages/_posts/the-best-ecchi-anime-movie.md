@@ -4,6 +4,7 @@ layout: post
 date: 2019-03-17
 tags: 
 - ecchi
+- anime
 ---
 
 推荐一部动画电影 「[New Glass: The Movie](https://hanime.tv/hentai-videos/new-glass-the-movie)」以及它的前作 「[Glass: The Movie](https://hanime.tv/hentai-videos/glass-the-movie)」，这两部电影讲述了两个高中生的恋爱故事，人物十分有趣，画面精致，甚至出现了化物语的梗，强烈推荐。

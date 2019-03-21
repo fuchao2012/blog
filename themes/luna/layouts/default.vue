@@ -16,6 +16,12 @@
           <slot name="default"></slot>
         </div>
       </div>
+      <div class="separator" data-text="终"></div>
+      <div class="tags" v-if="tags">
+        <saber-link class="tag" :to="`/tags/${tag}`" v-for="tag in tags" :key="tag">
+          #{{ tag }}
+        </saber-link>
+      </div>
       <div class="prev-next" v-if="page.prevPost || page.nextPost">
         <saber-link v-if="page.prevPost" :to="page.prevPost.attributes.permalink" class="prev">
           ← {{ page.prevPost.attributes.title }}
@@ -70,6 +76,12 @@ export default {
           content: summary
         }
       ]
+    }
+  },
+
+  computed: {
+    tags() {
+      return this.page.attributes.tags && this.page.attributes.tags.sort()
     }
   },
 
@@ -167,6 +179,26 @@ export default {
 </style>
 
 <style scoped lang="stylus">
+separator(text)
+  height: 1px
+  background: rgba(37,26,26,0.04)
+  position: relative
+  margin: 50px 0
+  overflow: visible
+  &:after
+    if text is false
+      content: attr(data-text)
+    else
+      content: text
+    padding: 0 10px
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    color: rgba(0, 0, 0, 0.26)
+    background: #fdf6e3
+    font-size: 1rem
+    
 .main
   max-width: 60rem
 
@@ -212,6 +244,24 @@ export default {
   .next
     float: right
 
+.tags
+  display: flex
+  margin: 30px 0
+
+.tag
+  display: flex
+  border: 1px dashed rgba(37,26,26,0.11)
+  color: #657b83
+  padding: 2px 8px
+  font-size: 14px
+  margin-right: 10px
+  text-decoration: none
+  &:hover
+    background: rgba(37,26,26,0.04)
+
+.separator
+  separator(false)
+
 @media screen and (max-width: 768px)
   .page-title
     font-size: 1.8rem
@@ -219,9 +269,7 @@ export default {
     font-size: 1rem
   .page-body
     font-size: 17px
-</style>
 
-<style lang="stylus" scoped>
 code
   font-size: 1rem
   tab-size: 4
@@ -296,18 +344,5 @@ pre
       text-decoration none
 
 hr.footnotes-sep
-  margin 40px 0
-  height 1px
-  position relative
-  overflow: visible
-  &:after
-    content: '脚注'
-    position absolute
-    left 50%
-    top 50%
-    transform translateX(-50%) translateY(-50%)
-    background #fdf6e3
-    padding: 0 10px
-    font-size 1rem
-    color rgba(0, 0, 0, 0.26)
+  separator('脚注')
 </style>
