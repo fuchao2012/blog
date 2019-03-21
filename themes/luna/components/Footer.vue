@@ -30,7 +30,7 @@ export default {
   height: 30px
   line-height: @height
   font-size: 14px
-  padding: 0 70px
+  padding: 0 80px
   .centered
     margin-bottom: 0
     &>span

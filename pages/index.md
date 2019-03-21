@@ -5,7 +5,7 @@ layout: index
 <div class="egoist-name">
   egoist
   <span class="dot">.</span>
-  <span class="lily" ref="name">lily</span>
+  <span class="lily" ref="name">chan</span>
 </div>
 
 <script>
@@ -72,6 +72,7 @@ export default {
   display: flex
 
 .egoist-name 
+  margin-left: -4px
   span
     color: #b58900
   &:hover

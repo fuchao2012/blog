@@ -1,18 +1,5 @@
-import Vue from 'vue'
 import 'nprogress/nprogress.css'
 import '#theme/styles/main.styl'
-import { themeConfig, siteConfig } from 'saber-config'
-
-Vue.mixin({
-  computed: {
-    $themeConfig() {
-      return themeConfig
-    },
-    $siteConfig() {
-      return siteConfig
-    }
-  }
-})
 
 export default ({ router, rootOptions }) => {
   if (process.browser) {
@@ -35,16 +22,19 @@ export default ({ router, rootOptions }) => {
     })
   }
 
-  rootOptions.head.htmlAttrs = {
-    lang: 'zh-CN'
-  }
-
-  rootOptions.head.link = [
-    {
-      rel: 'alternate',
-      title: `${siteConfig.title} - Feed`,
-      type: 'application/json',
-      href: `${siteConfig.url.replace(/\/$/, '')}/feed.json`
+  rootOptions.head = function () {
+    return {
+      htmlAttrs: {
+        lang: 'zh-CN'
+      },
+      link: [
+        {
+          rel: 'alternate',
+          title: `${this.$siteConfig.title} - Feed`,
+          type: 'application/json',
+          href: `${this.$siteConfig.url.replace(/\/$/, '')}/feed.json`
+        }
+      ]
     }
-  ]
+  }
 }

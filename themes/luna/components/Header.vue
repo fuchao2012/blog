@@ -15,18 +15,18 @@
 
 <style scoped lang="stylus">
 .header
-  height: 30px
-  line-height: 30px
+  height: 50px
+  line-height: 50px
   background-color: #93a1a1
   display: flex
-  font-size: 14px
+  font-size: 18px
 
 .site-name
-  font-size: 14px
+  font-size: 18px
   margin: 0
   font-weight: 400
   a
-    width: 70px
+    width: 80px
     padding-left: 10px
     display: block
     color: #eee8d5

@@ -80,6 +80,7 @@ export default {
       color: #ff69b4
 
 .pagination
+  margin-top: 30px
   a
     margin-right: 20px
     color: #b58900
@@ -117,7 +118,7 @@ export default {
 
 @media screen and (max-width: 768px)
   .post-title
-    font-size: 16px
+    font-size: 18px
     
   .cat
     font-size: 2rem

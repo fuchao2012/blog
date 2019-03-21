@@ -161,6 +161,9 @@ export default {
   .markdown-body
     ul, ol
       list-style: none
+
+    h2
+      font-size: 1.4rem
 </style>
 
 <style scoped lang="stylus">
@@ -211,11 +214,11 @@ export default {
 
 @media screen and (max-width: 768px)
   .page-title
-    font-size: 1.6rem
+    font-size: 1.8rem
   .page-subtitle
     font-size: 1rem
   .page-body
-    font-size: 15px
+    font-size: 17px
 </style>
 
 <style lang="stylus" scoped>
@@ -248,14 +251,12 @@ pre
 
 .code-wrapper
   background-color: transparent
+  border-radius: 0
   &:before
     color: #b1b1b1
 
 .code-line.highlighted
   background-color: #fdf0cd
-
-.code-mask, .code-block 
-  border-radius: 0
       
 @media screen and (max-width: 768px)
   .code-wrapper
