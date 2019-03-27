@@ -43,9 +43,9 @@ resolve = "saber-plugin-google-analytics"
   trackId = "UA-54857209-6"
 
 [[plugins]]
-resolve = "saber-generator-feed"
+resolve = "saber-plugin-generate-feed"
 
 [[plugins]]
 # inject posts to / and generate tags page
 # saber no longer does this automatically so we add this plugin
-resolve = "saber-query-posts"
+resolve = "saber-plugin-query-posts"

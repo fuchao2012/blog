@@ -875,6 +875,11 @@ ansi-regex@^3.0.0:
   resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-3.0.0.tgz#ed0317c322064f79466c02966bddb605ab37d998"
   integrity sha1-7QMXwyIGT3lGbAKWa922Bas32Zg=
 
+ansi-regex@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.0.tgz#8b9f8f08cf1acb843756a839ca8c7e3168c51997"
+  integrity sha512-1apePfXM1UOSqw0o9IiFAovVz9M5S1Dg+4TrDwfMewQ6p/rmMueb7tWZjQ1rx4Loy1ArBggoqGpfqqdI4rondg==
+
 ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
@@ -1240,7 +1245,7 @@ chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.1, chalk@^2.4.1, chalk@^2.4.2:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -1306,10 +1311,10 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-spinners@^1.1.0:
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/cli-spinners/-/cli-spinners-1.3.1.tgz#002c1990912d0d59580c93bd36c056de99e4259a"
-  integrity sha512-1QL4544moEsDVH9T/l6Cemov/37iv1RtoKf7NJ04A60+4MREXNfx/QvavbH6QoGdsD4N4Mwy49cmaINR/o2mdg==
+cli-spinners@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/cli-spinners/-/cli-spinners-2.0.0.tgz#4b078756fc17a8f72043fdc9f1f14bf4fa87e2df"
+  integrity sha512-yiEBmhaKPPeBj7wWm4GEdtPZK940p9pl3EANIrnJ3JnvWyrPjcFcsEq6qRUuQ7fzB0+Y82ld3p6B34xo95foWw==
 
 clipboard@^2.0.0:
   version "2.0.4"
@@ -3395,16 +3400,16 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
-ora@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/ora/-/ora-3.0.0.tgz#8179e3525b9aafd99242d63cc206fd64732741d0"
-  integrity sha512-LBS97LFe2RV6GJmXBi6OKcETKyklHNMV0xw7BtsVn2MlsgsydyZetSCbCANr+PFLmDyv4KV88nn0eCKza665Mg==
+ora@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/ora/-/ora-3.2.0.tgz#67e98a7e11f7f0ac95deaaaf11bb04de3d09e481"
+  integrity sha512-XHMZA5WieCbtg+tu0uPF8CjvwQdNzKCX6BVh3N6GFsEXH40mTk5dsw/ya1lBTUGJslcEFJFQ8cBhOgkkZXQtMA==
   dependencies:
-    chalk "^2.3.1"
+    chalk "^2.4.2"
     cli-cursor "^2.1.0"
-    cli-spinners "^1.1.0"
+    cli-spinners "^2.0.0"
     log-symbols "^2.2.0"
-    strip-ansi "^4.0.0"
+    strip-ansi "^5.0.0"
     wcwidth "^1.0.1"
 
 os-browserify@^0.3.0:
@@ -4222,11 +4227,6 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-saber-generator-feed@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/saber-generator-feed/-/saber-generator-feed-0.0.2.tgz#eecda4187372ad8a0ac2ed1c77d887a1cd8a945e"
-  integrity sha512-dBjgRx29MsJyPFdBSkI8qsFO3/ZO8eidnpBsh99iITdh3yihK5PY0skEHXhRfsuYaeit67uhiaj0h0gfM2Bgcg==
-
 saber-highlighter-prism@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/saber-highlighter-prism/-/saber-highlighter-prism-0.1.0.tgz#a742ab210844afb22437e3f6467e7bdfa92c558b"
@@ -4250,25 +4250,30 @@ saber-markdown@^0.0.3:
   resolved "https://registry.npmjs.org/saber-markdown/-/saber-markdown-0.0.3.tgz#342a905040178cdd17766841c855c5152d120a2f"
   integrity sha512-Eu9vom2KqDY9a4/7gyU3QUG2QfLpu0+Yt48TZ5OZqW3ER77xutu7VKOJvjmIpo9ma9rgeKCpEQjYHAlpKC+bGw==
 
+saber-plugin-generate-feed@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/saber-plugin-generate-feed/-/saber-plugin-generate-feed-0.0.4.tgz#de8ff7531046924979a2fb9970f34c7bbe047e23"
+  integrity sha512-fg7J0S0Ff1FWLd5K/+ETHQW/2NjN7Mcxdo9ZLacSWKxrXU5gbBgSX6QABc6bfUEJ9r69vdya27TjPCSJY7aO2Q==
+
 saber-plugin-google-analytics@^0.0.3:
   version "0.0.3"
   resolved "https://registry.npmjs.org/saber-plugin-google-analytics/-/saber-plugin-google-analytics-0.0.3.tgz#173dc9e7501cbfbc46e577422492038e0a189f1e"
   integrity sha512-wqXIQPbx6KJzzUvJ2pfoRp7+cqIe3FsLlq05e6NP+wtKhOMvuY2/v6mGxJ/BpRikJSv0Q8ln9r0fRqFJicvubg==
 
-saber-query-posts@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/saber-query-posts/-/saber-query-posts-0.0.3.tgz#2e5efcab9810487d8a65799b1c2744a45d28c7fe"
-  integrity sha512-/k4X5tq4fssxie3x+nU/2jFfyVKCMyD21ww1sauSPuSo9fPGzDw62/XlzMJxQdYlPeZ0KFv9tl2Nl66Y+uovew==
+saber-plugin-query-posts@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/saber-plugin-query-posts/-/saber-plugin-query-posts-0.0.5.tgz#2323bac201b42cb60e94424a2f25374b9e99f41f"
+  integrity sha512-fuStp8tuWYX41onuIAVpBG0u02xNBv1vNpJ1wZ5hQI7DJj0ZAOa6fcIouncaakLAP+oF5uRd5R42rCXzW4DbtA==
 
-saber-utils@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.0.3.tgz#c5f81dd182faf6edd6f9f1b81484c589fbe952d6"
-  integrity sha512-4spEvm0wyZ7SR81+UOnvuVWhKb7rzalzibYRqemLc57kuZLwZ4lhIE7nLMfFmnweI8m0vRq0I+aXVHEWK1ea/g==
+saber-utils@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.0.4.tgz#15b5e3458445a2ef097cc2505dc3bbcbbdf32c9a"
+  integrity sha512-U3srXEi7pSj15TgJn60qkY5wsgLoTFT/8oW0iJdZUe7DAybZRZrBK9I0WLWAz0DVx0FdigBd0zQjNmvq5KfGiQ==
 
-saber@^0.2.23:
-  version "0.2.23"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.2.23.tgz#d73b9d3bef977e56edd672627074cda465dc608c"
-  integrity sha512-pDXctrmwpN75fWx60rZB/pUNtB6gHeOj7RC4QKQzrOV5uAAeFBgt3Pt+AmvQilboVqClcGQY0hN/4bGFjrHldg==
+saber@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npmjs.org/saber/-/saber-0.3.1.tgz#0c969658629be37194345b384d9df1009ebc33a4"
+  integrity sha512-0JRpZiUzfREKNgV6BTAgbIMNxkM6Lu52LpNPKDV6RFYCH9M6jEH+fSoUOs6wa/PIhNdey25E8P/f+YZF3jMSKA==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"
@@ -4289,13 +4294,13 @@ saber@^0.2.23:
     joycon "^2.2.3"
     lodash.merge "^4.6.1"
     mini-css-extract-plugin "^0.5.0"
-    ora "^3.0.0"
+    ora "^3.2.0"
     polka "^0.5.1"
     pretty-ms "^4.0.0"
     resolve-from "^4.0.0"
     saber-log "^0.1.1"
     saber-markdown "^0.0.3"
-    saber-utils "^0.0.3"
+    saber-utils "^0.0.4"
     serve-static "^1.13.2"
     superstruct "^0.6.0"
     tapable "^1.1.1"
@@ -4673,6 +4678,13 @@ strip-ansi@^4.0.0:
   integrity sha1-qEeQIusaw2iocTibY1JixQXuNo8=
   dependencies:
     ansi-regex "^3.0.0"
+
+strip-ansi@^5.0.0:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/strip-ansi/-/strip-ansi-5.2.0.tgz#8c9a536feb6afc962bdfa5b104a5091c1ad9c0ae"
+  integrity sha512-DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA==
+  dependencies:
+    ansi-regex "^4.1.0"
 
 strip-json-comments@~2.0.1:
   version "2.0.1"

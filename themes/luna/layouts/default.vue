@@ -279,7 +279,6 @@ code
     content: "`"
     
 pre
-  border: 1px solid #eee8d5
   margin-top: 30px
   margin-bottom: 30px
   overflow: auto
@@ -297,22 +296,24 @@ pre
       content: ''
       display: none
 
-.code-wrapper
+.saber-highlight
   background-color: transparent
   border-radius: 0
+  box-shadow: inset 0 0 0 1px #eee8d5
   &:before
     color: #b1b1b1
 
 .code-line.highlighted
   background-color: #fdf0cd
+  box-shadow: inset 3px 0 0 0 #ffcd33
       
 @media screen and (max-width: 768px)
-  .code-wrapper
+  .saber-highlight
     margin-left: -10px
     margin-right: @margin-left
     pre
       padding: 10px
-    .code-mask
+    .saber-highlight-mask
       padding: 10px 0
     
 .footnote-ref
