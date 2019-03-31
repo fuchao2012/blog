@@ -3,11 +3,8 @@
     <Header />
     <div class="main">
       <slot name="default" />  
-      <div class="cat" v-if="page.attributes.type === 'tags'">
+      <div class="cat" v-if="page.tag">
         #{{ page.tag }}
-      </div>
-      <div class="cat" v-if="page.attributes.type === 'categories'">
-        category: {{ page.category }}
       </div>
       <div class="post-list">
         <div class="post-item" v-for="post in page.posts" :key="post.permalink">

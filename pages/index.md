@@ -1,5 +1,6 @@
 ---
 layout: index
+injectAllPosts: true
 ---
 
 <div class="egoist-name">

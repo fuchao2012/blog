@@ -4260,20 +4260,20 @@ saber-plugin-google-analytics@^0.0.3:
   resolved "https://registry.npmjs.org/saber-plugin-google-analytics/-/saber-plugin-google-analytics-0.0.3.tgz#173dc9e7501cbfbc46e577422492038e0a189f1e"
   integrity sha512-wqXIQPbx6KJzzUvJ2pfoRp7+cqIe3FsLlq05e6NP+wtKhOMvuY2/v6mGxJ/BpRikJSv0Q8ln9r0fRqFJicvubg==
 
-saber-plugin-query-posts@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/saber-plugin-query-posts/-/saber-plugin-query-posts-0.0.5.tgz#2323bac201b42cb60e94424a2f25374b9e99f41f"
-  integrity sha512-fuStp8tuWYX41onuIAVpBG0u02xNBv1vNpJ1wZ5hQI7DJj0ZAOa6fcIouncaakLAP+oF5uRd5R42rCXzW4DbtA==
+saber-plugin-query-posts@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/saber-plugin-query-posts/-/saber-plugin-query-posts-0.0.6.tgz#4fd74366767d7140d197606b409384c59927dae0"
+  integrity sha512-VWP3JF1oOCZzDGap50ysK9N1th/idFpTw+m0bW97sFIPHz8HGZYZPjEf/ct2+II5EDxoAeMMhyvE8gUxWheoWg==
 
 saber-utils@^0.0.4:
   version "0.0.4"
   resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.0.4.tgz#15b5e3458445a2ef097cc2505dc3bbcbbdf32c9a"
   integrity sha512-U3srXEi7pSj15TgJn60qkY5wsgLoTFT/8oW0iJdZUe7DAybZRZrBK9I0WLWAz0DVx0FdigBd0zQjNmvq5KfGiQ==
 
-saber@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.3.1.tgz#0c969658629be37194345b384d9df1009ebc33a4"
-  integrity sha512-0JRpZiUzfREKNgV6BTAgbIMNxkM6Lu52LpNPKDV6RFYCH9M6jEH+fSoUOs6wa/PIhNdey25E8P/f+YZF3jMSKA==
+saber@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.npmjs.org/saber/-/saber-0.3.2.tgz#ed56acf08513d9887a4fb5ec346cd5cc772c59d6"
+  integrity sha512-dWFekuszbTbhhruivN1sN4Wa8dsNDMhG1k10pkB7cdpXok6ZQZgBbjKJBBfLZjNzMQFLqb0OqgI4zPRI93P+PA==
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"
