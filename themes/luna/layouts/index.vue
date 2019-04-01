@@ -51,10 +51,7 @@ export default {
           name: 'description',
           content: this.$siteConfig.description
         }
-      ],
-      link: [
-        this.$feedLink
-      ].filter(Boolean)
+      ]
     }
   },
 

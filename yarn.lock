@@ -2108,6 +2108,14 @@ fastparse@^1.1.1:
   resolved "https://registry.npmjs.org/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
   integrity sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
 
+feed@^2.0.4:
+  version "2.0.4"
+  resolved "http://registry.npm.taobao.org/feed/download/feed-2.0.4.tgz#14cd71b3bae1e965b81f7e0c5927e8941de996f8"
+  integrity sha1-FM1xs7rh6WW4H34MWSfolB3plvg=
+  dependencies:
+    luxon "^1.3.3"
+    xml "^1.0.1"
+
 figgy-pudding@^3.5.1:
   version "3.5.1"
   resolved "https://registry.npmjs.org/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
@@ -2954,6 +2962,11 @@ lru-cache@^5.1.1:
   integrity sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==
   dependencies:
     yallist "^3.0.2"
+
+luxon@^1.3.3:
+  version "1.12.0"
+  resolved "http://registry.npm.taobao.org/luxon/download/luxon-1.12.0.tgz#d02d53c8d8aaebe6b4c00ba1ce1be3913546b2e7"
+  integrity sha1-0C1TyNiq6+a0wAuhzhvjkTVGsuc=
 
 make-dir@^1.0.0:
   version "1.3.0"
@@ -4250,30 +4263,34 @@ saber-markdown@^0.0.3:
   resolved "https://registry.npmjs.org/saber-markdown/-/saber-markdown-0.0.3.tgz#342a905040178cdd17766841c855c5152d120a2f"
   integrity sha512-Eu9vom2KqDY9a4/7gyU3QUG2QfLpu0+Yt48TZ5OZqW3ER77xutu7VKOJvjmIpo9ma9rgeKCpEQjYHAlpKC+bGw==
 
-saber-plugin-generate-feed@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/saber-plugin-generate-feed/-/saber-plugin-generate-feed-0.0.4.tgz#de8ff7531046924979a2fb9970f34c7bbe047e23"
-  integrity sha512-fg7J0S0Ff1FWLd5K/+ETHQW/2NjN7Mcxdo9ZLacSWKxrXU5gbBgSX6QABc6bfUEJ9r69vdya27TjPCSJY7aO2Q==
+saber-plugin-generate-feed@^0.1.1:
+  version "0.1.1"
+  resolved "http://registry.npm.taobao.org/saber-plugin-generate-feed/download/saber-plugin-generate-feed-0.1.1.tgz#2b4cc9883f3448e7e656407658cc33a378b8efa5"
+  integrity sha1-K0zJiD80SOfmVkB2WMwzo3i476U=
+  dependencies:
+    feed "^2.0.4"
 
 saber-plugin-google-analytics@^0.0.3:
   version "0.0.3"
   resolved "https://registry.npmjs.org/saber-plugin-google-analytics/-/saber-plugin-google-analytics-0.0.3.tgz#173dc9e7501cbfbc46e577422492038e0a189f1e"
   integrity sha512-wqXIQPbx6KJzzUvJ2pfoRp7+cqIe3FsLlq05e6NP+wtKhOMvuY2/v6mGxJ/BpRikJSv0Q8ln9r0fRqFJicvubg==
 
-saber-plugin-query-posts@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.npmjs.org/saber-plugin-query-posts/-/saber-plugin-query-posts-0.0.6.tgz#4fd74366767d7140d197606b409384c59927dae0"
-  integrity sha512-VWP3JF1oOCZzDGap50ysK9N1th/idFpTw+m0bW97sFIPHz8HGZYZPjEf/ct2+II5EDxoAeMMhyvE8gUxWheoWg==
+saber-plugin-query-posts@^0.0.7:
+  version "0.0.7"
+  resolved "http://registry.npm.taobao.org/saber-plugin-query-posts/download/saber-plugin-query-posts-0.0.7.tgz#8c2cfaae1025c63c1ad9a720d1cb13943715a622"
+  integrity sha1-jCz6rhAlxjwa2acg0csTlDcVpiI=
+  dependencies:
+    url-join "^4.0.0"
 
 saber-utils@^0.0.4:
   version "0.0.4"
   resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.0.4.tgz#15b5e3458445a2ef097cc2505dc3bbcbbdf32c9a"
   integrity sha512-U3srXEi7pSj15TgJn60qkY5wsgLoTFT/8oW0iJdZUe7DAybZRZrBK9I0WLWAz0DVx0FdigBd0zQjNmvq5KfGiQ==
 
-saber@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.3.2.tgz#ed56acf08513d9887a4fb5ec346cd5cc772c59d6"
-  integrity sha512-dWFekuszbTbhhruivN1sN4Wa8dsNDMhG1k10pkB7cdpXok6ZQZgBbjKJBBfLZjNzMQFLqb0OqgI4zPRI93P+PA==
+saber@^0.3.4:
+  version "0.3.4"
+  resolved "http://registry.npm.taobao.org/saber/download/saber-0.3.4.tgz#e2c870a4e8d12635a705cb5e58e321c3308a20bb"
+  integrity sha1-4shwpOjRJjWnBcteWOMhwzCKILs=
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"
@@ -4992,6 +5009,11 @@ urix@^0.1.0:
   resolved "https://registry.npmjs.org/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
+url-join@^4.0.0:
+  version "4.0.0"
+  resolved "http://registry.npm.taobao.org/url-join/download/url-join-4.0.0.tgz#4d3340e807d3773bda9991f8305acdcc2a665d2a"
+  integrity sha1-TTNA6AfTdzvamZH4MFrNzCpmXSo=
+
 url-loader@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/url-loader/-/url-loader-1.1.2.tgz#b971d191b83af693c5e3fea4064be9e1f2d7f8d8"
@@ -5243,6 +5265,11 @@ worker-farm@^1.5.2:
 wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
+
+xml@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.taobao.org/xml/download/xml-1.0.1.tgz#78ba72020029c5bc87b8a81a3cfcd74b4a2fc1e5"
+  integrity sha1-eLpyAgApxbyHuKgaPPzXS0ovweU=
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"

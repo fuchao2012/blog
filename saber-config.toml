@@ -45,6 +45,9 @@ resolve = "saber-plugin-google-analytics"
 [[plugins]]
 resolve = "saber-plugin-generate-feed"
 
+  [plugins.options]
+  atomFeed = true
+
 [[plugins]]
 # inject posts to / and generate tags page
 # saber no longer does this automatically so we add this plugin

@@ -31,8 +31,8 @@ export default ({ router, rootOptions }) => {
         {
           rel: 'alternate',
           title: `${this.$siteConfig.title} - Feed`,
-          type: 'application/json',
-          href: `${this.$siteConfig.url.replace(/\/$/, '')}/feed.json`
+          type: 'application/atom+xml',
+          href: `${this.$siteConfig.url.replace(/\/$/, '')}/atom.xml`
         }
       ]
     }
