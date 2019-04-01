@@ -4263,10 +4263,10 @@ saber-markdown@^0.0.3:
   resolved "https://registry.npmjs.org/saber-markdown/-/saber-markdown-0.0.3.tgz#342a905040178cdd17766841c855c5152d120a2f"
   integrity sha512-Eu9vom2KqDY9a4/7gyU3QUG2QfLpu0+Yt48TZ5OZqW3ER77xutu7VKOJvjmIpo9ma9rgeKCpEQjYHAlpKC+bGw==
 
-saber-plugin-generate-feed@^0.1.1:
-  version "0.1.1"
-  resolved "http://registry.npm.taobao.org/saber-plugin-generate-feed/download/saber-plugin-generate-feed-0.1.1.tgz#2b4cc9883f3448e7e656407658cc33a378b8efa5"
-  integrity sha1-K0zJiD80SOfmVkB2WMwzo3i476U=
+saber-plugin-generate-feed@^0.1.2:
+  version "0.1.2"
+  resolved "http://registry.npm.taobao.org/saber-plugin-generate-feed/download/saber-plugin-generate-feed-0.1.2.tgz?cache=0&other_urls=http%3A%2F%2Fregistry.npm.taobao.org%2Fsaber-plugin-generate-feed%2Fdownload%2Fsaber-plugin-generate-feed-0.1.2.tgz#cecdb3279b719408751f0028c7a2857b7f5e43c7"
+  integrity sha1-zs2zJ5txlAh1HwAox6KFe39eQ8c=
   dependencies:
     feed "^2.0.4"
 
