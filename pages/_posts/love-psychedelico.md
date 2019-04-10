@@ -2,6 +2,7 @@
 title: 爱的魔幻
 slug: love-psychedelico
 date: 2019-04-10T10:59:34.068Z
+layout: post
 tags:
   - music
 ---
