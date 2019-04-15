@@ -1160,10 +1160,10 @@ bulk-replace@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/bulk-replace/-/bulk-replace-0.0.1.tgz#f095682a896abd4b3d9e08de409cc222e213f9dd"
 
-cac@^6.4.3:
-  version "6.4.3"
-  resolved "https://registry.npmjs.org/cac/-/cac-6.4.3.tgz#903bd577194912781bdeec039b1b10a30a6c1fcd"
-  integrity sha512-vnSAe5+uEWFnCre3NkjYJS/Gq6PjZLXw9iErjtPH/2pBr3Ieyvh751zpA33eNBhyX4gDjlsaJBQLn70lawytZQ==
+cac@^6.5.1:
+  version "6.5.1"
+  resolved "http://registry.npm.taobao.org/cac/download/cac-6.5.1.tgz#c5685ebc20a8448558191d70a2a76636640308a0"
+  integrity sha1-xWhevCCoRIVYGR1woqdmNmQDCKA=
 
 cacache@^11.0.2:
   version "11.3.2"
@@ -3343,7 +3343,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-object-assign@^4.0.1, object-assign@^4.1.0:
+object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
@@ -4270,10 +4270,10 @@ saber-plugin-google-analytics@^0.0.3:
   resolved "https://registry.npmjs.org/saber-plugin-google-analytics/-/saber-plugin-google-analytics-0.0.3.tgz#173dc9e7501cbfbc46e577422492038e0a189f1e"
   integrity sha512-wqXIQPbx6KJzzUvJ2pfoRp7+cqIe3FsLlq05e6NP+wtKhOMvuY2/v6mGxJ/BpRikJSv0Q8ln9r0fRqFJicvubg==
 
-saber-plugin-query-posts@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/saber-plugin-query-posts/-/saber-plugin-query-posts-0.1.0.tgz#185817f16312e9631cdf309d526a6ffe3db33d56"
-  integrity sha512-nKREVxiuDM/8Mm4CnrlJohX3BIFXKFWDefQTM1ZZUW6ukkWhsehBc5hjTwM++cxX+6XxIkJb6TgbyND/idFtNw==
+saber-plugin-query-posts@^0.1.1:
+  version "0.1.1"
+  resolved "http://registry.npm.taobao.org/saber-plugin-query-posts/download/saber-plugin-query-posts-0.1.1.tgz#066d561861b0c1bd49aceaeecaccda6cea8d037b"
+  integrity sha1-Bm1WGGGwwb1JrOruyszabOqNA3s=
   dependencies:
     slugo "^0.2.3"
     url-join "^4.0.0"
@@ -4283,10 +4283,10 @@ saber-utils@^0.1.0:
   resolved "https://registry.npmjs.org/saber-utils/-/saber-utils-0.1.0.tgz#4a9b114aad02aa9fab3ec2daeb2b7f5e9f9dff2e"
   integrity sha512-7doIJMmdWG41BlpeC36WbtLzZw/B/Vt2Cds4geIZCPWCyTg4nOKWsVgfQ+502CNqJkOPnz8D+joHb+UcmjaxRg==
 
-saber@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.npmjs.org/saber/-/saber-0.4.2.tgz#826a8390299fcdb95533406026ef4dcf0a8a5dcc"
-  integrity sha512-7hvQS0eN+u311VVNWz2ncKo0LeDhQrTyrmZjftceo5cTJbrvp+6aDPNtYZimgaQuDpn6Y3ObQoxep1oS3ogTIw==
+saber@^0.4.3:
+  version "0.4.3"
+  resolved "http://registry.npm.taobao.org/saber/download/saber-0.4.3.tgz#c26481783eaa76e3341390cf1cfd9398923cf220"
+  integrity sha1-wmSBeD6qduM0E5DPHP2TmJI88iA=
   dependencies:
     "@babel/core" "^7.2.2"
     "@babel/plugin-proposal-object-rest-spread" "^7.2.0"
@@ -4297,7 +4297,7 @@ saber@^0.4.2:
     "@egoist/postcss-loader" "^3.0.2"
     "@intervolga/optimize-cssnano-plugin" "^1.0.6"
     babel-loader "^8.0.5"
-    cac "^6.4.3"
+    cac "^6.5.1"
     chokidar "^2.0.4"
     css-loader "^2.1.0"
     cssnano "^4.1.8"
@@ -4307,6 +4307,7 @@ saber@^0.4.2:
     joycon "^2.2.4"
     lodash.merge "^4.6.1"
     mini-css-extract-plugin "^0.5.0"
+    object-assign "^4.1.1"
     ora "^3.2.0"
     polka "^0.5.1"
     pretty-ms "^4.0.0"

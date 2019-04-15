@@ -274,7 +274,7 @@ code
   font-size: 1rem
   tab-size: 4
   color: #bd10e0
-  font-family: "fira code", Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace
+  font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace
   &:before, &:after
     content: "`"
     
@@ -302,6 +302,9 @@ pre
   box-shadow: inset 0 0 0 1px #eee8d5
   &:before
     color: #b1b1b1
+
+.saber-highlight-mask
+  font-size: 1rem
 
 .code-line.highlighted
   background-color: #fdf0cd
