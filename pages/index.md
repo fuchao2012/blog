@@ -3,7 +3,7 @@ layout: index
 injectAllPosts: true
 ---
 
-<div class="egoist-name">
+<div class="egoist-name" ref="wholeName">
   egoist
   <span class="dot">.</span>
   <span class="lily" ref="name">chan</span>
@@ -11,6 +11,7 @@ injectAllPosts: true
 
 <script>
 import scifi from 'scifi'
+import { DeviceMotion } from '../lib/DeviceMotion'
 
 const NAMES = [
   'iroha',
@@ -39,6 +40,9 @@ export default {
         content: this.getName()
       })
     }, 3000)
+
+    this.motion = new DeviceMotion(this.$refs.wholeName)
+    this.motion.init()
   },
   methods: {
     getRandomIndex(currentIndex) {
@@ -57,6 +61,9 @@ export default {
   beforeDestroy() {
     if (this.loop) {
       clearInterval(this.loop)
+    }
+    if (this.motion) {
+      this.motion.destroy()
     }
   }
 }
