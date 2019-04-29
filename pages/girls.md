@@ -143,7 +143,7 @@ waifus:
 <!-- ![saber](https://i.loli.net/2017/09/02/59aa9b9a87d3a.jpg) -->
 <!-- ![mordred](https://i.loli.net/2017/11/10/5a0535daceee7.jpg) -->
 <!-- ![ena](https://i.loli.net/2017/12/03/5a23dd8a0870c.jpg) -->
-![rui](https://ws1.sinaimg.cn/large/006tNc79gy1g0088oc0lkj31hc0u0npd.jpg)
+![rui](https://i.imgurp.com/Us5opjq.jpg)
 
 ## 历史
 

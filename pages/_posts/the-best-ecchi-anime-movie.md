@@ -29,6 +29,6 @@ tags:
 
 <br>
 
-<img src="https://ws2.sinaimg.cn/large/006tKfTcgy1g166rf69wyj31i50u0x1e.jpg" alt="preview 1">
+<img src="https://i.imgurp.com/LVPkDYl.jpg" alt="preview 1">
 
-<img src="https://ws1.sinaimg.cn/large/006tKfTcgy1g166omrth9j31hq0u0kcc.jpg" alt="preview 2">
+<img src="https://i.imgurp.com/hAikssW.jpg" alt="preview 2">
