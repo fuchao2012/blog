@@ -1,3 +1,4 @@
+import 'saber-highlight-css/default.css'
 import 'nprogress/nprogress.css'
 import '#theme/styles/main.styl'
 
