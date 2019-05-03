@@ -2,7 +2,7 @@ import 'saber-highlight-css/default.css'
 import 'nprogress/nprogress.css'
 import '#theme/styles/main.styl'
 
-export default ({ router, rootOptions }) => {
+export default ({ router, setHead }) => {
   if (process.browser) {
     const nprogress = require('nprogress')
 
@@ -23,7 +23,7 @@ export default ({ router, rootOptions }) => {
     })
   }
 
-  rootOptions.head = function () {
+  setHead(function () {
     return {
       htmlAttrs: {
         lang: 'zh-CN'
@@ -37,5 +37,5 @@ export default ({ router, rootOptions }) => {
         }
       ]
     }
-  }
+  })
 }
