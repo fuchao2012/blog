@@ -303,7 +303,8 @@ pre
   &:before
     color: #b1b1b1
 
-.saber-highlight-mask
+.saber-highlight-mask,
+.saber-highlight-code code
   font-size: 1rem
 
 .code-line.highlighted

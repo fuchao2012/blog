@@ -6,6 +6,10 @@ description = "EGOIST 在这里写作"
 url = "https://egoist.moe"
 author = "EGOIST"
 email = "0x142857@gmail.com"
+pwaFirstTimeInstallMessage = "本站可以离线访问"
+pwaUpdateReadyMessage = "本站内容有更新"
+pwaUpdateButtonMessage = "确认"
+pwaDismissMessage = "忽略"
 
 [themeConfig]
 headerTitle = "echan"
@@ -27,7 +31,6 @@ twitter = "_egoistlily"
 
 [markdown]
 slugify = "./utils/slugify"
-highlighter = "prism"
 
   [[markdown.plugins]]
   resolve = "markdown-it-footnote"
@@ -43,7 +46,7 @@ resolve = "saber-plugin-google-analytics"
   trackId = "UA-54857209-6"
 
 [[plugins]]
-resolve = "saber-plugin-generate-feed"
+resolve = "saber-plugin-feed"
 
   [plugins.options]
   atomFeed = true
@@ -52,6 +55,12 @@ resolve = "saber-plugin-generate-feed"
 # inject posts to / and generate tags page
 # saber no longer does this automatically so we add this plugin
 resolve = "saber-plugin-query-posts"
+
+[[plugins]]
+resolve = "saber-plugin-prismjs"
+
+[[plugins]]
+resolve = "saber-plugin-pwa"
 
 [build]
 lazy = true
