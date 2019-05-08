@@ -8,7 +8,7 @@ module.exports = {
     email: '0x142857@gmail.com',
     pwaFirstTimeInstallMessage: '本站可以离线访问',
     pwaUpdateReadyMessage: '本站内容有更新',
-    pwaUpdateButtonMessage: '确认',
+    pwaUpdateButtonMessage: '刷新',
     pwaDismissMessage: '忽略'
   },
   themeConfig: {
