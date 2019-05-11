@@ -5,14 +5,12 @@ exports.onCreatePages = function() {
     .sort((a, b) => {
       return a.attributes.createdAt > b.attributes.createdAt ? 1 : -1
     })
+  const selectFields = page => (page && {
+    title: page.attributes.title,
+    permalink: page.attributes.permalink
+  })
   for (const [index, post] of posts.entries()) {
-    // It's NOT recommended to mutate `page` directly to add addtional props
-    // Use `extendPageProp` instead to add more properties to the `page` prop on your layout page
-    this.pages.extendPageProp(post.internal.id, {
-      // Some properties on `page` are not supposed to be accessible at runtime
-      // Use `getPagePublicFields` to return public fields of the page only
-      prevPost: this.pages.getPagePublicFields(posts[index - 1]),
-      nextPost: this.pages.getPagePublicFields(posts[index + 1])
-    })
+    post.prevPost = selectFields(posts[index - 1])
+    post.nextPost = selectFields(posts[index + 1])
   }
 }
