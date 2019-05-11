@@ -45,7 +45,7 @@
   a
     color: #586e75
     text-decoration: none
-    &:hover
+    &:hover, &.router-link-exact-active
       color: #eee8d5
       background: transparent
 </style>
