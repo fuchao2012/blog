@@ -61,19 +61,6 @@ module.exports = {
     },
     {
       resolve: 'saber-plugin-prismjs'
-    },
-    {
-      resolve: 'saber-plugin-pwa',
-      options: {
-        generateSWOptions: {
-          runtimeCaching: [
-            {
-              urlPattern: /^https:\/\/(i\.loli\.net|user-images\.githubusercontent\.com|i\.imgurp\.com)\//,
-              handler: 'StaleWhileRevalidate'
-            }
-          ]
-        }
-      }
     }
   ],
   build: {
