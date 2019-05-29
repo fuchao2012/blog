@@ -20,7 +20,7 @@
     "saber": "^0.6.2",
     "saber-highlight-css": "^0.0.3",
     "saber-plugin-feed": "^0.3.0",
-    "saber-plugin-google-analytics": "^0.0.5",
+    "saber-plugin-google-analytics": "^0.0.6",
     "saber-plugin-prismjs": "^0.2.0",
     "saber-plugin-query-posts": "^0.3.2",
     "scifi": "^0.1.4",
