@@ -18,7 +18,7 @@
     "nprogress": "^0.2.0",
     "prismjs": "^1.16.0",
     "saber": "^0.6.2",
-    "saber-highlight-css": "^0.0.3",
+    "saber-highlight-css": "^0.0.5",
     "saber-plugin-feed": "^0.3.0",
     "saber-plugin-google-analytics": "^0.0.6",
     "saber-plugin-prismjs": "^0.2.0",
