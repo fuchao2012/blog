@@ -25,6 +25,6 @@
     "saber-plugin-query-posts": "^0.3.0",
     "scifi": "^0.1.4",
     "v-tippy": "^2.0.0",
-    "vue-feather-icons": "^4.7.0"
+    "vue-feather-icons": "^4.21.0"
   }
 }
