@@ -68,11 +68,11 @@ export default {
           content: `@${this.$themeConfig.twitter}`
         },
         {
-          name: 'twitter:title',
+          name: 'og:title',
           content: title
         },
         {
-          name: 'twitter:description',
+          name: 'og:description',
           content: summary
         }
       ]
