@@ -61,7 +61,7 @@ export default {
         },
         {
           name: 'twitter:card',
-          content: summary
+          content: 'summary'
         },
         {
           name: 'twitter:creator',
