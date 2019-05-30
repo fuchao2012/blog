@@ -4395,10 +4395,10 @@ saber-highlight-css@^0.0.5:
   resolved "https://registry.yarnpkg.com/saber-highlight-css/-/saber-highlight-css-0.0.5.tgz#ec0d1c032a47a05a63a89cbcc7548c735d2058f5"
   integrity sha512-Gf9+HFd1OvLTTfxbLkx72ttd3UlGLolnLGpPGo6VUXxSvfMNicc5sCw+HFCXyLoA0Lq/VGBi6Sh47/kT2vn2hg==
 
-saber-highlighter-prism@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/saber-highlighter-prism/-/saber-highlighter-prism-0.3.0.tgz#9d0ce7a8b3eac72394a45f5cb40796ea90fe8c09"
-  integrity sha512-gsp1Tj3Q4k2yHMY5aJMYhpX1W/xNd7qzTiTgmbbpzHA7qyltlN8w1OtG4tyzzKD97g720U1N5ahSVvz+hAGaoQ==
+saber-highlighter-prism@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/saber-highlighter-prism/-/saber-highlighter-prism-0.3.1.tgz#05566507e0c1e7450887be0c5dc7726bd44991e0"
+  integrity sha512-ppghAz6tW496Enpfr7S43N11wEPm8eoe+35caSYY6mdm1ME1iU4kEjFufM9xbzHYOcYBQQ0aDe1fuIBrzj5qZw==
   dependencies:
     saber-log "^0.2.0"
 
@@ -4424,12 +4424,12 @@ saber-plugin-google-analytics@^0.0.6:
   resolved "https://registry.yarnpkg.com/saber-plugin-google-analytics/-/saber-plugin-google-analytics-0.0.6.tgz#86e8cd8ab7227c74196f17bac487e36d48c4f0a3"
   integrity sha512-ccTsMBp7oSKv5t9BE1vt5WlLs+DWtC9P4BOPosDLMjp0VKO/AroOrJ3clnib3rwJ+Fw/icOllNKDK0m4zDPJOg==
 
-saber-plugin-prismjs@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/saber-plugin-prismjs/-/saber-plugin-prismjs-0.2.0.tgz#caa0cafaedf8cc9b74d4661f1d7341892ed297bd"
-  integrity sha512-fHlp8mCs3jxEyJmRq2igtvkFgGAbKNXSo4+mtFCH6WxsUz+wmR4jOPzhWwB27a1U33kMLiQRf8mqMBOzdsXdBQ==
+saber-plugin-prismjs@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/saber-plugin-prismjs/-/saber-plugin-prismjs-0.2.1.tgz#678cbe3611d331a89429270a9639287941c0a1cf"
+  integrity sha512-oJA0DLxnS8RrAxy4e2CSa+kirvV7Gvi42lsme30LLTH5udbahz+e4roe572+3iu27wT/EQ3V0w8e2R5DddObZg==
   dependencies:
-    saber-highlighter-prism "^0.3.0"
+    saber-highlighter-prism "^0.3.1"
 
 saber-plugin-query-posts@^0.3.2:
   version "0.3.2"
