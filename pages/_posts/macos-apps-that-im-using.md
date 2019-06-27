@@ -1,5 +1,5 @@
 ---
-title: 我在用的 macOS 应用
+title: 我常用的 macOS 应用
 slug: macos-apps-that-im-using
 date: 2019-06-27T12:21:51.281Z
 layout: post
