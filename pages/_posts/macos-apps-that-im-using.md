@@ -35,7 +35,7 @@ tags:
 
 <img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-discord-preview.png" width="400">
 
-Discord 相比 Slack 感觉是一个更用心的应用，大概两年前我在 Discord 上创建了如今的官方 Vue 社区之后就没在用过 Slack 了，当然我也为我的开源项目用户创建了一个[社区](https://chat.egoist.moe)。
+Discord 相比 Slack 感觉是一个更用心的应用，大概两年前我在 Discord 上创建了如今的[官方 Vue 社区之后](https://chat.vuejs.org)就没在用过 Slack 了，当然我也为我的开源项目用户创建了一个[社区](https://chat.egoist.moe)。
 
 ## 工具类
 
@@ -123,7 +123,7 @@ macOS 上最好的终端模拟器，我是搭配 [fish shell](https://fishshell.
 
 ## PWA
 
-PWA (Progressive Web App) 并不是 macOS 应用，而是用户体验接近本地应用的网页应用，所有支持 PWA 的网站都可以被安装到 macOS/Windows/Android/iOS 上。
+[PWA (Progressive Web App)](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps) 并不是 macOS 应用，而是用户体验接近本地应用的网页应用，所有支持 PWA 的网站都可以被安装到 macOS/Windows/Android/iOS 上。
 
 ### [Twitter](https://m.twitter.com)
 
