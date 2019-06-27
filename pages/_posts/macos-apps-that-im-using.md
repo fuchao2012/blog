@@ -19,7 +19,7 @@ tags:
 * 在 menubar 上显示今天是几号
 * 可以查看中国节假日
 
-### 微信
+### [微信](https://weixin.qq.com/)
 
 朋友家人都在用微信 :sad_face:
 
@@ -45,7 +45,7 @@ Discord 相比 Slack 感觉是一个更用心的应用，大概两年前我在 D
 
 用来绕开防火墙。
 
-### Google Chrome
+### [Google Chrome](https://www.google.com/intl/zh-CN/chrome/)
 
 <i><small>没有预览，你大概已经知道它长什么样子了</small><i>
 
