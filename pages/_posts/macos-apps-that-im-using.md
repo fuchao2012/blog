@@ -89,10 +89,6 @@ Discord 相比 Slack 感觉是一个更用心的应用，大概两年前我在 D
 
 ## 图像影音类
 
-### [圈点](https://evernote.com/intl/zh-cn/?yxoptout=true)
-
-Evernote 出品的简易图片编辑应用，可以用来给图片加注释、箭头、各种基本图形和打马赛克等。
-
 ### [IINA](https://iina.io/)
 
 开源的视频播放器，没什么毛病。
