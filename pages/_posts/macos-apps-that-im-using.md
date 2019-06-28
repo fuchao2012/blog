@@ -12,7 +12,7 @@ tags:
 
 ### [Itsycal](https://www.mowglii.com/itsycal/)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-XPnrhBD%20-1-.png" alt="preview" width="400">
+<img src="https://img.egoist.moe/2019-06-27-XPnrhBD%20-1-.png" alt="preview" width="400">
 
 这是一个[开源](Itsycal)的日历应用，简洁小巧不过包含所有我需要的功能:
 
@@ -25,7 +25,7 @@ tags:
 
 ### [Telegram](https://telegram.org/)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-06-27%20%E4%B8%8B%E5%8D%8810.34.20.png" width="400">
+<img src="https://img.egoist.moe/2019-06-27-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-06-27%20%E4%B8%8B%E5%8D%8810.34.20.png" width="400">
 
 我加入了几个和我兴趣相关的群组，我有些开源项目也有 Telegram 群组，有时国外的朋友也会通过它联系我。
 
@@ -33,7 +33,7 @@ tags:
 
 ### [Discord](https://discordapp.com)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-discord-preview.png" width="400">
+<img src="https://img.egoist.moe/2019-06-27-discord-preview.png" width="400">
 
 Discord 相比 Slack 感觉是一个更用心的应用，大概两年前我在 Discord 上创建了如今的[官方 Vue 社区之后](https://chat.vuejs.org)就没在用过 Slack 了，当然我也为我的开源项目用户创建了一个[社区](https://chat.egoist.moe)。
 
@@ -41,7 +41,7 @@ Discord 相比 Slack 感觉是一个更用心的应用，大概两年前我在 D
 
 ### [Shadowsocks-NG](https://github.com/shadowsocks/ShadowsocksX-NG)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-p13advT%20-1-.png" alt="shadowsocks preview" width="400">
+<img src="https://img.egoist.moe/2019-06-27-p13advT%20-1-.png" alt="shadowsocks preview" width="400">
 
 用来绕开防火墙。
 
@@ -57,25 +57,25 @@ Discord 相比 Slack 感觉是一个更用心的应用，大概两年前我在 D
 
 ### [iPic](https://apps.apple.com/cn/app/ipic-markdown-%E5%9B%BE%E5%BA%8A-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%B7%A5%E5%85%B7/id1101244278?mt=12)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-135934.png" width="400">
+<img src="https://img.egoist.moe/2019-06-27-135934.png" width="400">
 
 这个应用可以让你方便地上传图片到各种图床，直接将图片拖拽到 menubar 里的图标即可。
 
 ### [Battery Indicator](https://sindresorhus.com/battery-indicator)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-135835.jpg" alt="Battery Indicator" width="400">
+<img src="https://img.egoist.moe/2019-06-27-135835.jpg" alt="Battery Indicator" width="400">
 
 在 menubar 里显示当前电量和预估的可使用时间。
 
 ### [LICEcap](https://www.cockos.com/licecap/)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-licecap_rules.gif" width="400" alt="licecap">
+<img src="https://img.egoist.moe/2019-06-27-licecap_rules.gif" width="400" alt="licecap">
 
 最实用的屏幕 GIF 录制工具，我也用过 [Kap](https://getkap.co/)，不过相比之下 LICEcap 速度更快而且生成的 GIF 更小。
 
 ### [1Password](https://1password.com/)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-06-27%20%E4%B8%8B%E5%8D%8810.13.05.png" width="400" alt="1password">
+<img src="https://img.egoist.moe/2019-06-27-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-06-27%20%E4%B8%8B%E5%8D%8810.13.05.png" width="400" alt="1password">
 
 密码管理工具。在一年前我所有账户都是用的几个固定的密码，现在我的每个账户都是随机高强度的密码，并且能开启二步验证的我都开启了，1Password 的自动填充功能很省心。
 
@@ -83,7 +83,7 @@ Discord 相比 Slack 感觉是一个更用心的应用，大概两年前我在 D
 
 ### [Image2Icon](http://www.img2icnsapp.com/)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-135909.png" width="400">
+<img src="https://img.egoist.moe/2019-06-27-135909.png" width="400">
 
 让你方便地将图片转换为各种格式的图标，比如 PWA、Windows 应用、iOS 应用所需要的图标。
 
@@ -105,19 +105,19 @@ Evernote 出品的简易图像编辑工具，用来打马赛克、加文字、�
 
 ### [VS Code](https://code.visualstudio.com/)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-jNUjv1G.png" width="400">
+<img src="https://img.egoist.moe/2019-06-27-jNUjv1G.png" width="400">
 
 主力代码编辑器。
 
 ### [iTerm2](https://www.iterm2.com/features.html)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-140148.jpg" width="400">
+<img src="https://img.egoist.moe/2019-06-27-140148.jpg" width="400">
 
 macOS 上最好的终端模拟器，我是搭配 [fish shell](https://fishshell.com/) 来用。
 
 ### [GitUp](https://gitup.co/)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-06-27%20%E4%B8%8B%E5%8D%8810.26.59.png" width="400" alt="gitup">
+<img src="https://img.egoist.moe/2019-06-27-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-06-27%20%E4%B8%8B%E5%8D%8810.26.59.png" width="400" alt="gitup">
 
 开源免费的 Git 客户端，界面简单直观。
 
@@ -127,7 +127,7 @@ macOS 上最好的终端模拟器，我是搭配 [fish shell](https://fishshell.
 
 ### [Twitter](https://m.twitter.com)
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-27-twitter-pwa.png" width="400" alt="twitter pwa" style="border:1px solid #ccc;border-radius:3px;">
+<img src="https://img.egoist.moe/2019-06-27-twitter-pwa.png" width="400" alt="twitter pwa" style="border:1px solid #ccc;border-radius:3px;">
 
 Twitter 废弃了它的官方桌面应用之后，取而代之的就是 Twitter PWA，它在桌面和手机端都有不错的体验。
 

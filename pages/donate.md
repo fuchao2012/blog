@@ -9,8 +9,8 @@ layout: page
 
 ## <span>支付宝</span>
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-28-alipay.jpg" alt="alipay" width="500">
+<img src="https://img.egoist.moe/2019-06-28-alipay.jpg" alt="alipay" width="500">
 
 ## <span>微信转账</span>
 
-<img src="https://egoist.oss-cn-shenzhen.aliyuncs.com/2019-06-28-wechat.png" alt="wechat" width="500">
+<img src="https://img.egoist.moe/2019-06-28-wechat.png" alt="wechat" width="500">
