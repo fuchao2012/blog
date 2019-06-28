@@ -29,6 +29,6 @@ tags:
 
 <br>
 
-<img src="https://i.imgurp.com/LVPkDYl.jpg" alt="preview 1">
+<img src="https://img.egoist.moe/2019-06-28-051354.jpg" alt="preview 1">
 
-<img src="https://i.imgurp.com/hAikssW.jpg" alt="preview 2">
+<img src="https://img.egoist.moe/2019-06-28-051407.jpg" alt="preview 2">
