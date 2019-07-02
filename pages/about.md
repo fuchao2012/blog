@@ -24,6 +24,7 @@ subtitle: 先定一个小目标，写出能用的代码就行了。
 - 手机: OnePlus 6
 - 游戏机: Nintendo Switch
 - 平板: iPad Pro 10.5" + Apple Pencil 第一代
+- 耳机: Earpods + Airpods 2
 - 鼠标: 罗技 M558
 - 水杯: Lock&Lock LHC4125
 - 其它: Kindle (吃灰)
