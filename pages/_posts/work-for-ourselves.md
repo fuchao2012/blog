@@ -7,6 +7,7 @@ layout: post
 tags:
   - life
 original: https://nav.al/working-ourselves
+translationConfidence: 60
 ---
 
 

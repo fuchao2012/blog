@@ -27,6 +27,7 @@
             :href="page.attributes.original"
             target="_blank"
           >{{ page.attributes.original }}</a>
+          {{ (!page.attributes.translationConfidence || page.attributes.translationConfidence) > 60 ? '' : `&nbsp;(译者水平有限，译文仅供参考)` }}
         </div>
         <div class="markdown-body">
           <slot name="default"></slot>
@@ -257,7 +258,7 @@ separator(text) {
   font-size: 4rem;
   margin: 0;
   line-height: 1.2;
-  
+
   @media (min-width: 992px) {
     margin-left: -3px;
   }
