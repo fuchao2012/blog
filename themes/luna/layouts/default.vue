@@ -334,8 +334,6 @@ separator(text) {
   border: 1px dashed rgba(37, 26, 26, 0.11);
   padding: 10px;
   margin-bottom: 30px;
-  vertical-align: middle;
-  margin-top: -3px;
   font-size: 1rem;
 
   svg {
@@ -343,6 +341,8 @@ separator(text) {
     height: 1.1em;
     width: 1.1em;
     fill: #8bc34a;
+    vertical-align: middle;
+    margin-top: -3px;
   }
 }
 
