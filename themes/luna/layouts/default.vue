@@ -257,7 +257,10 @@ separator(text) {
   font-size: 4rem;
   margin: 0;
   line-height: 1.2;
-  margin-left: -3px;
+  
+  @media (min-width: 992px) {
+    margin-left: -3px;
+  }
 }
 
 .page-subtitle {
