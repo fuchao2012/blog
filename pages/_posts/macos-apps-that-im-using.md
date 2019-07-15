@@ -47,7 +47,7 @@ Discord 相比 Slack 感觉是一个更用心的应用，大概两年前我在 D
 
 ### [Google Chrome](https://www.google.com/intl/zh-CN/chrome/)
 
-<i><small>没有预览，你大概已经知道它长什么样子了</small><i>
+<i><small>没有预览，你大概已经知道它长什么样子了</small></i>
 
 主力浏览器。
 
