@@ -337,7 +337,6 @@ separator(text) {
   font-size: 1rem;
 
   svg {
-    margin-right: 4px;
     height: 1.1em;
     width: 1.1em;
     fill: #8bc34a;
