@@ -334,8 +334,8 @@ separator(text) {
   border: 1px dashed rgba(37, 26, 26, 0.11);
   padding: 10px;
   margin-bottom: 30px;
-  display: flex;
-  align-items: center;
+  vertical-align: middle;
+  margin-top: -3px;
   font-size: 1rem;
 
   svg {
