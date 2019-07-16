@@ -1,7 +1,6 @@
 ---
 title: 最终，我们是为自己工作
 subtitle: 我们的目标是最终取得财富自由并为自己工作
-slug: work-for-ourselves
 date: 2019-07-15T12:31:09.084Z
 layout: post
 tags:
