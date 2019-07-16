@@ -5,6 +5,7 @@ date: 2019-07-15T12:31:09.084Z
 layout: post
 tags:
   - life
+  - translation
 original: https://nav.al/working-ourselves
 translationConfidence: 60
 ---
