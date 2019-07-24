@@ -9,8 +9,8 @@
       <div class="post-list">
         <div class="post-item" v-for="post in page.posts" :key="post.permalink">
           <h2 class="post-title">
-            <saber-link :to="post.attributes.permalink">
-              {{  post.attributes.title }}
+            <saber-link :to="post.permalink">
+              {{  post.title }}
             </saber-link>
           </h2>
         </div>

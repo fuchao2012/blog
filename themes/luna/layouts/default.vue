@@ -3,15 +3,15 @@
     <Header />
     <div class="main">
       <div class="page-header">
-        <h1 class="page-title">{{ page.attributes.title }}</h1>
-        <h2 class="page-subtitle" v-if="page.attributes.subtitle">{{ page.attributes.subtitle }}</h2>
+        <h1 class="page-title">{{ page.title }}</h1>
+        <h2 class="page-subtitle" v-if="page.subtitle">{{ page.subtitle }}</h2>
       </div>
       <div class="page-body">
         <div
           class="alert alert-warning"
-          v-if="page.attributes.warning"
-        >{{ page.attributes.warning }}</div>
-        <div class="original-link" v-if="page.attributes.original">
+          v-if="page.warning"
+        >{{ page.warning }}</div>
+        <div class="original-link" v-if="page.original">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
             <g data-name="Layer 2">
               <g data-name="globe">
@@ -24,10 +24,10 @@
           </svg>
           本文翻译自:&nbsp;
           <a
-            :href="page.attributes.original"
+            :href="page.original"
             target="_blank"
-          >{{ page.attributes.original }}</a>
-          {{ (!page.attributes.translationConfidence || page.attributes.translationConfidence) > 60 ? '' : `&nbsp;(译者水平有限，译文仅供参考)` }}
+          >{{ page.original }}</a>
+          {{ (!page.translationConfidence || page.translationConfidence) > 60 ? '' : `&nbsp;(译者水平有限，译文仅供参考)` }}
         </div>
         <div class="markdown-body">
           <slot name="default"></slot>
@@ -49,11 +49,11 @@
           class="next"
         >{{ page.nextPost.title }} →</saber-link>
       </div>
-      <div class="report-bugs" v-if="page.attributes.type === 'post'">
+      <div class="report-bugs" v-if="page.type === 'post'">
         文章勘误可以直接到
         <a
           target="_blank"
-          :href="`https://github.com/egoist/blog/blob/master/pages/_posts/${page.attributes.slug}.md`"
+          :href="`https://github.com/egoist/blog/blob/master/pages/_posts/${page.slug}.md`"
         >源代码地址</a> 修改或者
         <a target="_blank" href="https://github.com/egoist/blog/issues/new">提交 ISSUE</a>，感谢阅读！
       </div>
@@ -70,8 +70,8 @@ export default {
   props: ["page"],
 
   head() {
-    const title = this.page.attributes.title;
-    let summary = this.page.attributes.subtitle || this.page.excerpt;
+    const title = this.page.title;
+    let summary = this.page.subtitle || this.page.excerpt;
     if (summary) {
       // Strip HTML tags
       summary = summary.replace(/<(?:.|\n)*?>/gm, "");
@@ -105,7 +105,7 @@ export default {
 
   computed: {
     tags() {
-      return this.page.attributes.tags && this.page.attributes.tags.sort();
+      return this.page.tags && this.page.tags.sort();
     }
   },
 
