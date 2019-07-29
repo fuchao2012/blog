@@ -3288,10 +3288,10 @@ mimic-fn@^1.0.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
   integrity sha512-jf84uxzwiuiIVKiOLpfYk7N46TSy8ubTonmneY9vrpHNAnp0QBt2BxWV9dO3/j+BoVAb+a5G6YDPW3M5HOdMWQ==
 
-mini-css-extract-plugin@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-0.7.0.tgz#5ba8290fbb4179a43dd27cca444ba150bee743a0"
-  integrity sha512-RQIw6+7utTYn8DBGsf/LpRgZCJMpZt+kuawJ/fju0KiOL6nAaTBNmCJwS7HtwSCXfS47gCkmtBFS7HdsquhdxQ==
+mini-css-extract-plugin@>=0.7.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-0.8.0.tgz#81d41ec4fe58c713a96ad7c723cdb2d0bd4d70e1"
+  integrity sha512-MNpRGbNA52q6U92i0qbVpQNsgk7LExy41MdAlG84FeytfDOtRIf/mCHdEgG8rpTKOaNKiqUnZdlptF469hxqOw==
   dependencies:
     loader-utils "^1.1.0"
     normalize-url "1.9.1"
@@ -4515,9 +4515,9 @@ run-queue@^1.0.0, run-queue@^1.0.3:
     aproba "^1.1.1"
 
 saber-highlight-css@canary:
-  version "0.0.6-canary.345.d76e516.0"
-  resolved "https://registry.yarnpkg.com/saber-highlight-css/-/saber-highlight-css-0.0.6-canary.345.d76e516.0.tgz#8cecf16c14d769b2ceaa39e0c30c0e88fc8d1abe"
-  integrity sha512-/GRzaBCdhVKKXHGo0IzOQQWoUtVgl++b65aH9T+51aY+JFgk1m8EhLtGYZckwkDwiEYuEhhF8bi45wuGmNc9ZQ==
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/saber-highlight-css/-/saber-highlight-css-0.1.0.tgz#deb5df38e723a5f081b03d656a33dc9920815b29"
+  integrity sha512-/F4yGjaKIRy6pMh4D+6nJGIfmYkflLtK08p4GVLmAKv9OeVvYAb1K0m/IfkcSov8v/Zmph9O0OhqeD7QztalPQ==
 
 saber-highlighter-prism@0.3.2-canary.345.d76e516.0:
   version "0.3.2-canary.345.d76e516.0"
@@ -4531,22 +4531,27 @@ saber-log@0.2.1-canary.345.d76e516.0:
   resolved "https://registry.yarnpkg.com/saber-log/-/saber-log-0.2.1-canary.345.d76e516.0.tgz#09d6c12d248f7220d277116f392dbebfe71dff86"
   integrity sha512-GdrXTwSqXdJIDrCetyOKeSf6MbGxYmmb/C/sF04FyqcdvTqv0LB4udV7r8ig570+rMIoVE6QNp+CL7spHeWyNw==
 
-saber-markdown@0.0.10-canary.345.d76e516.0:
-  version "0.0.10-canary.345.d76e516.0"
-  resolved "https://registry.yarnpkg.com/saber-markdown/-/saber-markdown-0.0.10-canary.345.d76e516.0.tgz#df45fa6ea21ae2c5fbfb5669e36037d76b4e9a84"
-  integrity sha512-pJw+BED4iH5vghd9uNSSOhAlH2mo9XFiUQru5qPS2pj7tgJioDk8hIeKf92MO2k9Z7gkJojCH/Q4n8DTuCqtYQ==
+saber-log@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/saber-log/-/saber-log-0.2.0.tgz#6c4a803a3d8c89f243580f0d7259e396220286d6"
+  integrity sha512-S0KbP6uktP0g75t+QG7sx1dkib/S1TyhOxPKFj9325eYVJOYi6ECfyeWiuYsma35MxqJTlFp4Dxw7U57JEjvSA==
+
+saber-markdown@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/saber-markdown/-/saber-markdown-0.1.0.tgz#97daf5e7d48f67e7cb60f3f7335c16082474b18b"
+  integrity sha512-qI02wHTH4LUXiX6guP5o5E2u08OQUjxNHBETAK5J4PxRvudQPgUzGcaEbGeg1WEI+WbpvOBLd/rZviZWCXNEDA==
 
 saber-plugin-feed@canary:
-  version "0.3.5-canary.345.d76e516.0"
-  resolved "https://registry.yarnpkg.com/saber-plugin-feed/-/saber-plugin-feed-0.3.5-canary.345.d76e516.0.tgz#9c9d79054b5e482cc2f8306e198a2c4271eb16e3"
-  integrity sha512-Va3eCVJ+37BD2VjdwTjqCZIUJ1uhKW0C3gE8f7cJ6anB1vzWviDVCi7M/e1I444A8O3EZE0eyrtnXDV2nYzmog==
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/saber-plugin-feed/-/saber-plugin-feed-0.4.0.tgz#38be9c2afb713254d41a4ce5db182e801e70322a"
+  integrity sha512-xjsFYGuvE9KE5ZyseCPJTytgC79hD9oIxHWJTJJXNVFFQ/6JsoCU+h5lI6g+G3VdmB7S2D/aYKP8CqkBp67c6g==
   dependencies:
     feed "^4.0.0"
 
 saber-plugin-google-analytics@canary:
-  version "0.0.7-canary.345.d76e516.0"
-  resolved "https://registry.yarnpkg.com/saber-plugin-google-analytics/-/saber-plugin-google-analytics-0.0.7-canary.345.d76e516.0.tgz#0ff8fb2f3a2108003fa5ea290a13a57e1ad114f2"
-  integrity sha512-Q7sFl5PkThZPpm2fnNT/Pkq8BHoZy8xthMzzF65HoASBG5Jw521MHJ/gMJUv0/YaoY9G6cVPx7GoOQ+jtjWNjg==
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/saber-plugin-google-analytics/-/saber-plugin-google-analytics-0.1.0.tgz#e5e2018395ea1584ddf30e1229ee9d202caa3459"
+  integrity sha512-fFeiYuXDwesd/MEYxTCkYAtW4NECHV44yavZgXzS71qe6NziljWC0P3Rf0mbOTbRIL57gjebkUmjWJ4Rqc8YAg==
 
 saber-plugin-prismjs@canary:
   version "0.2.2-canary.345.d76e516.0"
@@ -4556,22 +4561,22 @@ saber-plugin-prismjs@canary:
     saber-highlighter-prism "0.3.2-canary.345.d76e516.0"
 
 saber-plugin-query-posts@canary:
-  version "0.3.3-canary.345.d76e516.0"
-  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.3.3-canary.345.d76e516.0.tgz#5d2fc21550255afaa53d3fdc1d0ea56439d4fd24"
-  integrity sha512-S9aS9i5YoTLotXF92/bXel/PJ4Sj6ejnNCMpjnzFm2b8oUCcUJcL6ygkQ/dNGPxRhk7YlYjX6V+cu5sb8Uukhw==
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/saber-plugin-query-posts/-/saber-plugin-query-posts-0.4.0.tgz#ec2ab447f89db924f5db59cb9d8e12cdd3a88321"
+  integrity sha512-FD5/YEzF8za+RmOFVdOXjBgj/8JWj2IP97XFDC7wjwCxoffrIdSCs25j8LXrXtYPZBIfTOg8Hox7W1aHzFDyKg==
   dependencies:
     slugo "^0.2.3"
     url-join "^4.0.0"
 
-saber-utils@0.1.6-canary.345.d76e516.0:
-  version "0.1.6-canary.345.d76e516.0"
-  resolved "https://registry.yarnpkg.com/saber-utils/-/saber-utils-0.1.6-canary.345.d76e516.0.tgz#182e9707ec2dad61a513bff37f1a26c525aac097"
-  integrity sha512-UWqPgW5PE7v5SjSoeQdbkGfPW+PeWCuO4Z6p1fpLl/9hYEz+sOyaDMWZkcigCgBIsqHfp2pr/NRWFjGDNk6Jgw==
+saber-utils@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/saber-utils/-/saber-utils-0.2.0.tgz#5106dbf838638824a9c37c7e52a11d9154a35f2d"
+  integrity sha512-iqr95cGpaywOwUUwaAHGxJAACMgrwBa5ZXJz/MsSFz9S50XY/yWYg/9Oe+bM8fonWP6XAACUHYzzWvlOdoQouQ==
 
-saber@^0.6.11-canary.345.d76e516.0:
-  version "0.6.11-canary.345.d76e516.0"
-  resolved "https://registry.yarnpkg.com/saber/-/saber-0.6.11-canary.345.d76e516.0.tgz#9986eade13ca3ff0f0e63bf0c30b7b355a23f664"
-  integrity sha512-6I0/2mGkXtqU92qhx+1AWDejBtPpwwBuPPLRz5HcBQiTTqbeCNxlGH3d8R9sUo48ktkLv98WuudVbZZuoBBuvA==
+saber@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/saber/-/saber-0.7.0.tgz#779c7bf5306e91c8b321c9deb5465a23b9f0931c"
+  integrity sha512-yKP3QY4tS2Fjoh/Ik7MafmpNItxwIV/BOI1OcJ9u21329uWgDF+a2HqX+W/hbPKm4XvYxPuT5ZJgs0jlYoxJUA==
   dependencies:
     "@babel/core" "^7.5.4"
     "@babel/plugin-proposal-object-rest-spread" "^7.5.4"
@@ -4594,16 +4599,16 @@ saber@^0.6.11-canary.345.d76e516.0:
     joycon "^2.2.4"
     lodash.merge "^4.6.1"
     log-update "^3.2.0"
-    mini-css-extract-plugin "^0.7.0"
+    mini-css-extract-plugin ">=0.7.0"
     object-assign "^4.1.1"
     open "^6.4.0"
     polka "^0.5.1"
     prettier "^1.17.0"
     pretty-ms "^5.0.0"
     resolve-from "^5.0.0"
-    saber-log "0.2.1-canary.345.d76e516.0"
-    saber-markdown "0.0.10-canary.345.d76e516.0"
-    saber-utils "0.1.6-canary.345.d76e516.0"
+    saber-log "^0.2.0"
+    saber-markdown "^0.1.0"
+    saber-utils "^0.2.0"
     serve-static "^1.13.2"
     slugo "^0.2.3"
     superstruct "^0.6.0"
