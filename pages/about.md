@@ -21,7 +21,7 @@ subtitle: 先定一个小目标，写出能用的代码就行了。
 ## 装备
 
 - 电脑: MacBook Pro 840 (2015 early)
-- 手机: OnePlus 6
+- 手机: [OnePlus 6](https://egoist.moe/r/oneplus-6-jd)
 - 游戏机: Nintendo Switch
 - 平板: iPad Pro 10.5" + Apple Pencil 第一代
 - 耳机: Earpods + Airpods 2
